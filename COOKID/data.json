@@ -1,10 +1,10 @@
 [
 {
-"title": "Nasi Goreng",
-"img": "resepjpg/nasigoreng.jpg",
-"file": "resephtml/nasigoreng.html",
-"category": ["nasi"]
-},
+"title": "bakmi goreng",
+"img": "https://bangyete17.github.io/data-server-app/COOKID/GAMBAR/bakmigoreng.jpg",
+"file": "https://bangyete17.github.io/data-server-app/COOKID/RESEP/bakmigoreng.html",
+"category": ["bakmi"]
+}
 
 
 
