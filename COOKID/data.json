@@ -1,113 +1,113 @@
 [
-{
+{"id": "nasigorengkampung",
 "title":"Nasi Goreng Kampung",
 "img":"gambar/nasigorengkampung.jpg",
 "file":"resep/nasigorengkampung.html",
 "category":["olahan nasi","nasi goreng"]
 },  
-{
+{"id": "nasigorengjawa",
 "title":"Nasi Goreng Jawa",
 "img":"gambar/nasigorengjawa.jpg",
 "file":"resep/nasigorengjawa.html",
 "category":["olahan nasi","nasi goreng"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Seafood",
 "img":"gambar/nasigorengseafood.jpg",
 "file":"resep/nasigorengseafood.html",
 "category":["olahan nasi","nasi goreng","seafood"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Kambing",
 "img":"gambar/nasigorengkambing.jpg",
 "file":"resep/nasigorengkambing.html",
 "category":["olahan nasi","nasi goreng"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng petai",
 "img":"gambar/nasigorengkambing.jpg",
 "file":"resep/nasigorengkambing.html",
 "category":["olahan nasi","nasi goreng"]
 },        
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Ikan Asin",
 "img":"gambar/nasigorengikanasin.jpg",
 "file":"resep/nasigorengikanasin.html",
 "category":["olahan nasi","nasi goreng","ikan asin"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Pete",
 "img":"gambar/nasigorengpete.jpg",
 "file":"resep/nasigorengpete.html",
 "category":["olahan nasi","nasi goreng"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Ayam Suwir",
 "img":"gambar/nasigorengayamsuwir.jpg",
 "file":"resep/nasigorengayamsuwir.html",
 "category":["olahan nasi","nasi goreng","ayam"]
 },     
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Udang",
 "img":"gambar/nasigorengudang.jpg",
 "file":"resep/nasigorengudang.html",
 "category":["olahan nasi","nasi goreng","udang","seafood"]
 },         
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng telur",
 "img":"gambar/nasigorengtelur.jpg",
 "file":"resep/nasigorengtelur.html",
 "category":["olahan nasi","nasi goreng","telur"]
 }, 
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Sosis",
 "img":"gambar/nasigorengsosis.jpg",
 "file":"resep/nasigorengsosis.html",
 "category":["olahan nasi","nasi goreng","sosis"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Kornet",
 "img":"gambar/nasigorengkornet.jpg",
 "file":"resep/nasigorengkornet.html",
 "category":["olahan nasi","nasi goreng","kornet"]
 },     
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Cabe Hijau",
 "img":"gambar/nasigorengcabehijau.jpg",
 "file":"resep/nasigorengcabehijau.html",
 "category":["olahan nasi","nasi goreng"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Tuna",
 "img":"gambar/nasigorengtuna.jpg",
 "file":"resep/nasigorengtuna.html",
 "category":["olahan nasi","nasi goreng","ikan"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Bakso",
 "img":"gambar/nasigorengbakso.jpg",
 "file":"resep/nasigorengbakso.html",
 "category":["olahan nasi","nasi goreng"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Spesial",
 "img":"gambar/nasigorengspesial.jpg",
 "file":"resep/nasigorengspesial.html",
 "category":["olahan nasi","nasi goreng"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Gila",
 "img":"gambar/nasigorenggila.jpg",
 "file":"resep/nasigorenggila.html",
 "category":["olahan nasi","nasi goreng"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Mawut Magelang",
 "img":"gambar/nasigorengmawutmagelang.jpg",
 "file":"resep/nasigorengmawutmagelang.html",
 "category":["olahan nasi","nasi goreng"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Ijo",
 "img":"gambar/nasigorengijo.jpg",
 "file":"resep/nasigorengijo.html",
@@ -119,289 +119,289 @@
 "file":"resep/nasigorengterasi.html",
 "category":["olahan nasi","nasi goreng"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Mentega",
 "img":"gambar/nasigorengmentega.jpg",
 "file":"resep/nasigorengmentega.html",
 "category":["olahan nasi","nasi goreng"]
 },     
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Mentega",
 "img":"gambar/nasigorengmentega.jpg",
 "file":"resep/nasigorengmentega.html",
 "category":["olahan nasi","nasi goreng"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Teri Medan",
 "img":"gambar/nasigorengterimedan.jpg",
 "file":"resep/nasigorengterimedan.html",
 "category":["olahan nasi","nasi goreng","ikan asin"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Kencur",
 "img":"gambar/nasigorengkencur.jpg",
 "file":"resep/nasigorengkencur.html",
 "category":["olahan nasi","nasi goreng"]
 },         
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Daun Jeruk",
 "img":"gambar/nasigorengdaunjeruk.jpg",
 "file":"resep/nasigorengdaunjeruk.html",
 "category":["olahan nasi","nasi goreng"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Goreng Vegetarian",
 "img":"gambar/nasigorengvegetarian.jpg",
 "file":"resep/nasigorengvegetarian.html",
 "category":["olahan nasi","nasi goreng","vegetarian"]
 }, 
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Betawi",
 "img":"gambar/nasiudukbetawi.jpg",
 "file":"resep/nasiudukbetawi.html",
 "category":["olahan nasi","nasi uduk"]
 },       
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Ayam Goreng",
 "img":"gambar/nasiudukayamgoreng.jpg",
 "file":"resep/nasiudukayamgoreng.html",
 "category":["olahan nasi","nasi uduk","ayam"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Ayam bakar",
 "img":"gambar/nasiudukayambakar.jpg",
 "file":"resep/nasiudukayambakar.html",
 "category":["olahan nasi","nasi uduk","ayam"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Telur Balado",
 "img":"gambar/nasiuduktelurbalado.jpg",
 "file":"resep/nasiuduktelurbalado.html",
 "category":["olahan nasi","nasi uduk","telur"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Telur Dadar",
 "img":"gambar/nasiuduktelurdadar.jpg",
 "file":"resep/nasiuduktelurdadar.html",
 "category":["olahan nasi","nasi uduk","telur"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Semur Jengkol",
 "img":"gambar/nasiuduksemurjengkol.jpg",
 "file":"resep/nasiuduksemurjengkol.html",
 "category":["olahan nasi","nasi uduk","jengkol"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Ikan Asin",
 "img":"gambar/nasiudukikanasin.jpg",
 "file":"resep/nasiudukikanasin.html",
 "category":["olahan nasi","nasi uduk","ikan asin"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Teri Kacang",
 "img":"gambar/nasiudukterikacang.jpg",
 "file":"resep/nasiudukterikacang.html",
 "category":["olahan nasi","nasi uduk","ikan asin"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Empal Daging",
 "img":"gambar/nasiudukempaldaging.jpg",
 "file":"resep/nasiudukempaldaging.html",
 "category":["olahan nasi","nasi uduk","daging"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Ayam Suwir",
 "img":"gambar/nasiudukayamsuwir.jpg",
 "file":"resep/nasiudukayamsuwir.html",
 "category":["olahan nasi","nasi uduk","ayam"]
 },     
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Komplit",
 "img":"gambar/nasiudukkomplit.jpg",
 "file":"resep/nasiudukkomplit.html",
 "category":["olahan nasi","nasi uduk"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Vegetarian",
 "img":"gambar/nasiudukvegetarian.jpg",
 "file":"resep/nasiudukvegetarian.html",
 "category":["olahan nasi","nasi uduk","vegetarian"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Uduk Rice Cooker",
 "img":"gambar/nasiudukricecooker.jpg",
 "file":"resep/nasiudukricecooker.html",
 "category":["olahan nasi","nasi uduk"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Tumpeng",
 "img":"gambar/nasikuningtumpeng.jpg",
 "file":"resep/nasikuningtumpeng.html",
 "category":["olahan nasi","nasi kuning"]
 },       
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Tumpeng spesial",
 "img":"gambar/nasikuningtumpengspesial.jpg",
 "file":"resep/nasikuningtumpengspesial.html",
 "category":["olahan nasi","nasi kuning"]
 },       
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Banjar",
 "img":"gambar/nasikuningbanjar.jpg",
 "file":"resep/nasikuningbanjar.html",
 "category":["olahan nasi","nasi kuning"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Komplit",
 "img":"gambar/nasikuningkomplit.jpg",
 "file":"resep/nasikuningkomplit.html",
 "category":["olahan nasi","nasi kuning"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Ayam Goreng",
 "img":"gambar/nasikuningayamgoreng.jpg",
 "file":"resep/nasikuningayamgoreng.html",
 "category":["olahan nasi","nasi kuning","ayam"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Ayam Suwir",
 "img":"gambar/nasikuningayamsuwir.jpg",
 "file":"resep/nasikuningayamsuwir.html",
 "category":["olahan nasi","nasi kuning","ayam"]
 },      
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Telur Balado",
 "img":"gambar/nasikuningtelurbalado.jpg",
 "file":"resep/nasikuningtelurbalado.html",
 "category":["olahan nasi","nasi kuning","telur"]
 },      
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Ikan Tongkol",
 "img":"gambar/nasikuningikantongkol.jpg",
 "file":"resep/nasikuningikantongkol.html",
 "category":["olahan nasi","nasi kuning","ikan"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Samarinda",
 "img":"gambar/nasikuningsamarinda.jpg",
 "file":"resep/nasikuningsamarinda.html",
 "category":["olahan nasi","nasi kuning"]
 },     
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Teri Kacang",
 "img":"gambar/nasikuningterikacang.jpg",
 "file":"resep/nasikuningterikacang.html",
 "category":["olahan nasi","nasi kuning","ikan asin"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Udang",
 "img":"gambar/nasikuningudang.jpg",
 "file":"resep/nasikuningudang.html",
 "category":["olahan nasi","nasi kuning","udang"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Cakalang",
 "img":"gambar/nasikuningcakalang.jpg",
 "file":"resep/nasikuningcakalang.html",
 "category":["olahan nasi","nasi kuning"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Rendang Ayam",
 "img":"gambar/nasikuningrendangayam.jpg",
 "file":"resep/nasikuningrendangayam.html",
 "category":["olahan nasi","nasi kuning","ayam"]
 },      
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Perkedel",
 "img":"gambar/nasikuningperkedel.jpg",
 "file":"resep/nasikuningperkedel.html",
 "category":["olahan nasi","nasi kuning"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Vegetarian",
 "img":"gambar/nasikuningvegetarian.jpg",
 "file":"resep/nasikuningvegetarian.html",
 "category":["olahan nasi","nasi kuning"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Rice Cooker",
 "img":"gambar/nasikuningricecooker.jpg",
 "file":"resep/nasikuningricecooker.html",
 "category":["olahan nasi","nasi kuning"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Lipat",
 "img":"gambar/nasikuninglipat.jpg",
 "file":"resep/nasikuninglipat.html",
 "category":["olahan nasi","nasi kuning"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kuning Empal Daging",
 "img":"gambar/nasikuningempaldaging.jpeg",
 "file":"resep/nasikuningempaldaging.html",
 "category":["olahan nasi","nasi kuning","daging"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Liwet Solo",
 "img":"gambar/nasiliwetsolo.jpg",
 "file":"resep/nasiliwetsolo.html",
 "category":["olahan nasi","nasi liwet"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Liwet teri",
 "img":"gambar/nasiliwetteri.jpg",
 "file":"resep/nasiliwetteri.html",
 "category":["olahan nasi","nasi liwet","ikan asin"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Liwet Ikan Asin",
 "img":"gambar/nasiliwetikanasin.jpg",
 "file":"resep/nasiliwetikanasin.html",
 "category":["olahan nasi","nasi liwet","ikan asin"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Liwet Ayam Serai",
 "img":"gambar/nasiliwetayamserai.jpg",
 "file":"resep/nasiliwetayamserai.html",
 "category":["olahan nasi","nasi liwet","ayam"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Liwet Udang",
 "img":"gambar/nasiliwetudang.jpg",
 "file":"resep/nasiliwetudang.html",
 "category":["olahan nasi","nasi liwet","udang"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Liwet Rice Cooker",
 "img":"gambar/nasiliwetricecooker.jpg",
 "file":"resep/nasiliwetricecooker.html",
 "category":["olahan nasi","nasi liwet"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Liwet Vegetarian",
 "img":"gambar/nasiliwetvegetarian.jpg",
 "file":"resep/nasiliwetvegetarian.html",
 "category":["olahan nasi","nasi liwet","vegetarian"]
 },     
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Timbel Ayam Bakar",
 "img":"gambar/nasitimbelayambakar.jpg",
 "file":"resep/nasitimbelayambakar.html",
 "category":["olahan nasi","nasi timbel","ayam"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Timbel Ikan Asin",
 "img":"gambar/nasitimbelikanasin.jpg",
 "file":"resep/nasitimbelikanasin.html",
 "category":["olahan nasi","nasi timbel","ikan asin"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Timbel Empal Daging",
 "img":"gambar/nasitimbelempaldaging.jpg",
 "file":"resep/nasitimbelempaldaging.html",
 "category":["olahan nasi","nasi timbel","daging"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Timbel Komplit",
 "img":"gambar/nasitimbelkomplit.jpg",
 "file":"resep/nasitimbelkomplit.html",
@@ -413,342 +413,365 @@
 "file":"resep/nasibakarayamsuwir.html",
 "category":["olahan nasi","nasi timbel","ayam"]
 }, 
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Bakar Ikan Teri",
 "img":"gambar/nasibakarikanteri.jpg",
 "file":"resep/nasibakarikanteri.html",
 "category":["olahan nasi","nasi bakar","ikan asin"]
 },      
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Bakar Seafood",
 "img":"gambar/nasibakarseafood.jpg",
 "file":"resep/nasibakarseafood.html",
 "category":["olahan nasi","nasi bakar","seafood"]
 },      
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Bakar Jamur",
 "img":"gambar/nasibakarjamur.jpg",
 "file":"resep/nasibakarjamur.html",
 "category":["olahan nasi","nasi bakar","jamur"]
 }, 
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Bakar Tahu Tempe",
 "img":"gambar/nasibakartahutempe.jpg",
 "file":"resep/nasibakartahutempe.html",
 "category":["olahan nasi","nasi bakar","tahu tempe"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Bakar Komplit",
 "img":"gambar/nasibakarkomplit.jpg",
 "file":"resep/nasibakarkomplit.html",
 "category":["olahan nasi","nasi bakar"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Bali",
 "img":"gambar/nasicampurbali.jpg",
 "file":"resep/nasicampurbali.html",
 "category":["olahan nasi","nasi campur"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Hainan",
 "img":"gambar/nasicampurhainan.jpg",
 "file":"resep/nasicampurhainan.html",
 "category":["olahan nasi","nasi campur"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Ayam",
 "img":"gambar/nasicampurayam.jpg",
 "file":"resep/nasicampurayam.html",
 "category":["olahan nasi","nasi campur","ayam"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Komplit",
 "img":"gambar/nasicampurkomplit.jpg",
 "file":"resep/nasicampurkomplit.html",
 "category":["olahan nasi","nasi campur"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Betawi",
 "img":"gambar/nasicampurbetawi.jpg",
 "file":"resep/nasicampurbetawi.html",
 "category":["olahan nasi","nasi campur"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Madura",
 "img":"gambar/nasicampurmadura.jpg",
 "file":"resep/nasicampurmadura.html",
 "category":["olahan nasi","nasi campur"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Jawa Timur",
 "img":"gambar/nasicampurjawatimur.jpg",
 "file":"resep/nasicampurjawatimur.html",
 "category":["olahan nasi","nasi campur"]
 }, 
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Pontianak",
 "img":"gambar/nasicampurpontianak.jpg",
 "file":"resep/nasicampurpontianak.html",
 "category":["olahan nasi","nasi campur"]
 }, 
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Telur Balado",
 "img":"gambar/nasicampurtelurbalado.jpg",
 "file":"resep/nasicampurtelurbalado.html",
 "category":["olahan nasi","nasi campur"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Campur Vegetarian",
 "img":"gambar/nasicampurvegetarian.jpg",
 "file":"resep/nasicampurvegetarian.html",
 "category":["olahan nasi","nasi campur","vegetarian"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi rames",
 "img":"gambar/nasirames.jpg",
 "file":"resep/nasirames.html",
 "category":["olahan nasi"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Langgi Khas Jawa",
 "img":"gambar/nasilanggikhasjawa.jpg",
 "file":"resep/nasilanggikhasjawa.html",
 "category":["olahan nasi"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Pecel Sederhana",
 "img":"gambar/nasipecelsederhana.jpeg",
 "file":"resep/nasipecelsederhana.html",
 "category":["olahan nasi"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Pecel Madiun",
 "img":"gambar/nasipecelmadiun.jpg",
 "file":"resep/nasipecelmadiun.html",
 "category":["olahan nasi"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Megono Pekalongan",
 "img":"gambar/nasimegonopekalongan.jpg",
 "file":"resep/nasimegonopekalongan.html",
 "category":["olahan nasi"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Jagung",
 "img":"gambar/nasijagung.jpeg",
 "file":"resep/nasijagung.html",
 "category":["olahan nasi"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Tutug Oncom Khas Sunda",
 "img":"gambar/nasitutugoncomkhassunda.jpg",
 "file":"resep/nasitutugoncomkhassunda.html",
 "category":["olahan nasi"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Nasi Kebuli",
 "img":"gambar/nasikebuli.jpg",
 "file":"resep/nasikebuli.html",
 "category":["olahan nasi"]
 },    
- {
+ {"id": "xxxxxxxxxxxx",
 "title":"Nasi Kebuli",
 "img":"gambar/nasikebuli.jpg",
 "file":"resep/nasikebuli.html",
 "category":["olahan nasi"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Rujak cingur Jawa Timur",
 "img":"gambar/rujakcingurjawatimur.jpg",
 "file":"resep/rujakcingurjawatimur.html",
 "category":["rujak"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Rujak Tumbuk Jawa",
 "img":"gambar/rujaktumbukjawa.jpeg",
 "file":"resep/rujaktumbukjawa.html",
 "category":["rujak"]
 }, 
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Rujak Gobet Jawa Tengah",
 "img":"gambar/rujakgobetjawatengah.jpg",
 "file":"resep/rujakgobetjawatengah.html",
 "category":["rujak"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Rujak kuah pindang Bali",
 "img":"gambar/rujakkuahpindangbali.jpg",
 "file":"resep/rujakkuahpindangbali.html",
 "category":["rujak"]
 },      
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Rujak serut khas Sunda",
 "img":"gambar/rujakserutkhassunda.jpg",
 "file":"resep/rujakserutkhassunda.html",
 "category":["rujak"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ayam Jakarta",
 "img":"gambar/buburayamjakarta.jpg",
 "file":"resep/buburayamjakarta.html",
 "category":["bubur","ayam"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ayam Sukabumi",
 "img":"gambar/buburayamsukabumi.jpg",
 "file":"resep/buburayamsukabumi.html",
 "category":["bubur","ayam"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ayam Bandung",
 "img":"gambar/buburayambandung.jpg",
 "file":"resep/buburayambandung.html",
 "category":["bubur","ayam"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ayam Cirebon",
 "img":"gambar/buburayamcirebon.jpg",
 "file":"resep/buburayamcirebon.html",
 "category":["bubur","ayam"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ayam Kuah Kuning",
 "img":"gambar/buburayamkuahkuning.jpg",
 "file":"resep/buburayamkuahkuning.html",
 "category":["bubur","ayam"]
 },     
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ayam Kampung",
 "img":"gambar/buburayamkampung.jpg",
 "file":"resep/buburayamkampung.html",
 "category":["bubur","ayam"]
 }, 
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ayam Spesial",
 "img":"gambar/buburayamspesial.jpg",
 "file":"resep/buburayamspesial.html",
 "category":["bubur","ayam"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ikan Palembang",
 "img":"gambar/buburikanpalembang.jpg",
 "file":"resep/buburikanpalembang.html",
 "category":["bubur","ikan"]
 },  
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Ikan pontianak",
 "img":"gambar/buburikanpontianak.jpg",
 "file":"resep/buburikanpontianak.html",
 "category":["bubur","ikan"]
 },   
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Sumsum Gurih",
 "img":"gambar/bubursumsumgurih.jpg",
 "file":"resep/bubursumsumgurih.html",
 "category":["bubur"]
 },    
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Nasi Polos",
 "img":"gambar/buburnasipolos.jpg",
 "file":"resep/buburnasipolos.html",
 "category":["bubur","olahan nasi"]
 },
-{
+{"id": "xxxxxxxxxxxx",
 "title":"Bubur Pedas Sambas kalimantan",
 "img":"gambar/buburpedassambaskalimantan.jpg",
 "file":"resep/buburpedassambaskalimantan.html",
 "category":["bubur"]
 },    
-{"title":"Bubur Kampiun khas minang",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Kampiun khas minang",
 "img":"gambar/buburkampiunkhasminang.jpg",
 "file":"resep/buburkampiunkhasminang.html",
 "category":["bubur"]
 },   
-{"title":"Bubur Lemu",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Lemu",
 "img":"gambar/buburlemu.jpg",
 "file":"resep/buburlemu.html",
 "category":["bubur"]
 },  
-{"title":"Bubur Kanji Rumbi Aceh",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Kanji Rumbi Aceh",
 "img":"gambar/buburkanjirumbiaceh.jpg",
 "file":"resep/buburkanjirumbiaceh.html",
 "category":["bubur"]
 },      
-{"title":"Bubur Bassang",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Bassang",
 "img":"gambar/buburbassang.jpg",
 "file":"resep/buburbassang.html",
 "category":["bubur"]
 },  
-{"title":"Bubur Gunting Singkawang",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Gunting Singkawang",
 "img":"gambar/buburguntingsingkawang.jpg",
 "file":"resep/buburguntingsingkawang.html",
 "category":["bubur"]
 },     
-{"title":"Bubur Barobbo",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Barobbo",
 "img":"gambar/buburbarobbo.jpg",
 "file":"resep/buburbarobbo.html",
 "category":["bubur"]
 },   
-{"title":"Bubur Papeda Papua",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Papeda Papua",
 "img":"gambar/buburpapedapapua.jpg",
 "file":"resep/buburpapedapapua.html",
 "category":["bubur"]
 },      
-{"title":"Bubur Sagu Maluku",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Sagu Maluku",
 "img":"gambar/bubursagumaluku.jpg",
 "file":"resep/bubursagumaluku.html",
 "category":["bubur"]
 }, 
-{"title":"Bubur Kacang Hijau manis",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Kacang Hijau manis",
 "img":"gambar/buburkacanghijaumanis.jpg",
 "file":"resep/buburkacanghijaumanis.html",
 "category":["bubur"]
 }, 
-{"title":"Bubur Ketan Hitam",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Ketan Hitam",
 "img":"gambar/buburketanhitam.jpg",
 "file":"resep/buburketanhitam.html",
 "category":["bubur"]
 },     
-{"title":"Bubur Candil Ketan",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Candil Ketan",
 "img":"gambar/buburcandilketan.jpg",
 "file":"resep/buburcandilketan.html",
 "category":["bubur"]
 },
-{"title":"Bubur Candil Ubi Ungu",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Candil Ubi Ungu",
 "img":"gambar/buburcandilubiungu.jpg",
 "file":"resep/buburcandilubiungu.html",
 "category":["bubur"]
 },   
-{"title":"Bubur Mutiara Manis",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Mutiara Manis",
 "img":"gambar/buburmutiaramanis.jpg",
 "file":"resep/buburmutiaramanis.html",
 "category":["bubur"]
 },    
-{"title":"Bubur Pacar Cina",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Pacar Cina",
 "img":"gambar/buburpacarcina.jpg",
 "file":"resep/buburpacarcina.html",
 "category":["bubur"]
 },
-{"title":"Bubur Jagung Manis",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Jagung Manis",
 "img":"gambar/buburjagungmanis.jpg",
 "file":"resep/buburjagungmanis.html",
 "category":["bubur"]
 },       
-{"title":"Bubur Labu Manis",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Labu Manis",
 "img":"gambar/buburlabumanis.JPG",
 "file":"resep/buburlabumanis.html",
 "category":["bubur"]
 },    
-{"title":"Bubur Ketan Gula Merah",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Ketan Gula Merah",
 "img":"gambar/buburketangulamerah.jpg",
 "file":"resep/buburketangulamerah.html",
 "category":["bubur"]
 },   
-{"title":"Bubur Madura",
+{"id": "xxxxxxxxxxxx",
+"title":"Bubur Madura",
 "img":"gambar/buburmadura.jpg",
 "file":"resep/buburmadura.html",
 "category":["bubur"]
-}     
+}  
 
 
+
+
+
+
+ 
 ]
