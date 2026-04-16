@@ -245,6 +245,12 @@
 "file": "resep/miegorengayam.html",
 "category": ["mie","ayam"]
 },
+ {
+"title": "Mie Aceh Tumis",
+"img": "gambar/mieacehtumis.jpg",
+"file": "resep/mieacehtumis.html",
+"category": ["mie","tumis"]
+},    
 {
 "title": "Mie Goreng Bakso",
 "img": "gambar/miegorengbakso.jpg",
@@ -335,12 +341,6 @@
 "file": "resep/mieacehkuah.html",
 "category": ["mie"]
 },      
-{
-"title": "Mie Aceh Tumis",
-"img": "gambar/mieacehtumis.jpg",
-"file": "resep/mieacehtumis.html",
-"category": ["mie"]
-},    
 {
 "title": "Mie Celor palembang",
 "img": "gambar/miecelorpalembang.jpeg",
@@ -580,7 +580,7 @@
 "title": "Sup Bakso Tahu",
 "img": "gambar/supbaksotahu.jpg",
 "file": "resep/supbaksotahu.html",
-"category": ["sup"]
+"category": ["sup","bakso"]
 },
 {
 "title": "Sup Ikan Bening",
