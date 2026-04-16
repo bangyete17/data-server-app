@@ -1,4 +1,1524 @@
 [
+{
+"title":"Sambal Terasi",
+"img":"gambar/sambalterasi.jpg",
+"file":"resep/sambalterasi.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Bawang",
+"img":"gambar/sambalbawang.jpg",
+"file":"resep/sambalbawang.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Tomat",
+"img":"gambar/sambaltomat.jpg",
+"file":"resep/sambaltpmat.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Cabai Rawit",
+"img":"gambar/sambalcabairawit.jpg",
+"file":"resep/sambalcabairawit.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Cabai Merah",
+"img":"gambar/sambalcabaimerah.jpeg",
+"file":"resep/sambalcabaimerah.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Jeruk",
+"img":"gambar/sambaljeruk.jpg",
+"file":"resep/sambaljeruk.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Matah",
+"img":"gambar/sambalmatah.jpg",
+"file":"resep/sambalmatah.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Dabu-Dabu",
+"img":"gambar/sambaldabudabu.jpg",
+"file":"resep/sambaldabudabu.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Colo-Colo",
+"img":"gambar/sambalcolocolo.jpg",
+"file":"resep/sambalcolocolo.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Bajak",
+"img":"gambar/sambalbajak.jpg",
+"file":"resep/sambalbajak.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Tumpang",
+"img":"gambar/sambaltumpang.jpg",
+"file":"resep/sambaltumpang.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Balado",
+"img":"gambar/sambalbalado.jpg",
+"file":"resep/sambalbalado.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Rica-Rica",
+"img":"gambar/sambalricarica.jpg",
+"file":"resep/sambalricarica.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Andaliman",
+"img":"gambar/sambalandaliman.jpg",
+"file":"resep/sambalandaliman.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Gami",
+"img":"gambar/sambalgami.jpg",
+"file":"resep/sambalgami.html",
+"category":["sambal"]
+}, 
+{
+"title":"Sambal Seruit",
+"img":"gambar/sambalseruit.jpg",
+"file":"resep/sambalseruit.html",
+"category":["sambal"]
+}, 
+{
+"title":"Sambal Kecombrang",
+"img":"gambar/sambalkecombrang.jpg",
+"file":"resep/sambalkecombrang.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Luat",
+"img":"gambar/samballuat.jpg",
+"file":"resep/samballuat.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Mangga",
+"img":"gambar/sambalmangga.jpg",
+"file":"resep/sambalmangga.html",
+"category":["sambal"]
+},  
+{
+"title":"Sambal Belimbing",
+"img":"gambar/sambalbelimbing.jpg",
+"file":"resep/sambalbelimbing.html",
+"category":["sambal"]
+}, 
+{
+"title":"Sambal Nanas",
+"img":"gambar/sambalnanas.jpg",
+"file":"resep/sambalnanas.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Tomat Hijau",
+"img":"gambar/sambaltomathijau.jpg",
+"file":"resep/sambaltomathijau.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Limau",
+"img":"gambar/samballimau.jpg",
+"file":"resep/samballimau.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Kacang",
+"img":"gambar/sambalkacang.jpg",
+"file":"resep/sambalkacang.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Oncom",
+"img":"gambar/sambaloncom.jpg",
+"file":"resep/sambaloncom.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Tempoyak",
+"img":"gambar/sambaltempoyak.jpg",
+"file":"resep/sambaltempoyak.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Tauco",
+"img":"gambar/sambaltauco.jpg",
+"file":"resep/sambaltauco.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Roa",
+"img":"gambar/sambalroa.jpg",
+"file":"resep/sambalroa.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Cakalang",
+"img":"gambar/sambalcakalang.jpg",
+"file":"resep/sambalcakalang.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Teri",
+"img":"gambar/sambalteri.jpg",
+"file":"resep/sambalteri.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Petai",
+"img":"gambar/sambalpetai.jpg",
+"file":"resep/sambalpetai.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Jengkol",
+"img":"gambar/sambaljengkol.jpg",
+"file":"resep/sambaljengkol.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Pecel",
+"img":"gambar/sambalpecel.jpg",
+"file":"resep/sambalpecel.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Lalapan",
+"img":"gambar/samballalapan.jpg",
+"file":"resep/samballalapan.html",
+"category":["sambal"]
+},
+{
+"title":"Sambal Mentah",
+"img":"gambar/sambalmentah.jpg",
+"file":"resep/sambalmentah.html",
+"category":["sambal"]
+},
+{
+"title": "Sambal Ulek",
+"img": "gambar/sambalulek.jpg",
+"file": "resep/sambalulek.html",
+"category": ["sambal"]
+},
+{
+"title": "Mie Goreng Jawa",
+"img": "gambar/miegorengjawa.jpg",
+"file": "resep/miegorengjawa.html",
+"category": ["mie"]
+},    
+{
+"title": "Mie Goreng Kampung",
+"img": "gambar/miegorengkampung.jpg",
+"file": "resep/miegorengkampung.html",
+"category": ["mie"]
+},    
+{
+"title": "Mie Goreng Aceh",
+"img": "gambar/miegorengaceh.jpg",
+"file": "resep/miegorengaceh.html",
+"category": ["mie"]
+}, 
+{
+"title": "Mie Goreng Seafood",
+"img": "gambar/miegorengseafood.jpg",
+"file": "resep/miegorengseafood.html",
+"category": ["mie","seafood"]
+},  
+{
+"title": "Mie Goreng Ayam",
+"img": "gambar/miegorengayam.jpg",
+"file": "resep/miegorengayam.html",
+"category": ["mie","ayam"]
+},
+{
+"title": "Mie Goreng Bakso",
+"img": "gambar/miegorengbakso.jpg",
+"file": "resep/miegorengbakso.html",
+"category": ["mie","bakso"]
+},    
+{
+"title": "Mie Goreng Spesial",
+"img": "gambar/miegorengspesial.jpg",
+"file": "resep/miegorengspesial.html",
+"category": ["mie"]
+},   
+{
+"title": "Mie Goreng TEK TEK",
+"img": "gambar/miegorengtektek.jpg",
+"file": "resep/miegorengtektek.html",
+"category": ["mie"]
+},    
+{
+"title": "Mie Kuah Ayam Cincang",
+"img": "gambar/miekuahayamcincang.jpeg",
+"file": "resep/miekuahayamcincang.html",
+"category": ["mie","ayam"]
+},    
+{
+"title": "Mie Kuah Seafood",
+"img": "gambar/miekuahseafood.jpg",
+"file": "resep/miekuahseafood.html",
+"category": ["mie","seafood"]
+},       
+{
+"title": "Mie Kuah Spesial",
+"img": "gambar/miekuahspesial.jpg",
+"file": "resep/miekuahspesial.html",
+"category": ["mie"]
+},
+{
+"title": "Mie Ayam Bakso",
+"img": "gambar/mieayambakso.jpg",
+"file": "resep/mieayambakso.html",
+"category": ["mie","ayam","bakso"]
+}, 
+{
+"title": "Mie Ayam Jamur",
+"img": "gambar/mieayamjamur.jpg",
+"file": "resep/mieayamjamur.html",
+"category": ["mie","ayam","jamur"]
+},       
+{
+"title": "Mie Ayam Pangsit",
+"img": "gambar/mieayampangsit.jpg",
+"file": "resep/mieayampangsit.html",
+"category": ["mie","ayam"]
+},    
+{
+"title": "Mie Ayam Ceker",
+"img": "gambar/mieayamceker.jpg",
+"file": "resep/mieayamceker.html",
+"category": ["mie","ayam"]
+},     
+{
+"title": "Mie Ayam Yamin",
+"img": "gambar/mieayamyamin.jpg",
+"file": "resep/mieayamyamin.html",
+"category": ["mie","ayam"]
+},    
+{
+"title": "Mie Ayam Bangka",
+"img": "gambar/mieayambangka.jpg",
+"file": "resep/mieayambangka.html",
+"category": ["mie","ayam"]
+},   
+{
+"title": "Mie Ayam Wonogiri",
+"img": "gambar/mieayamwonogiri.jpg",
+"file": "resep/mieayamwonogiri.html",
+"category": ["mie","ayam"]
+}, 
+{
+"title": "Mie Ayam Wonogiri",
+"img": "gambar/mieayamwonogiri.jpg",
+"file": "resep/mieayamwonogiri.html",
+"category": ["mie","ayam"]
+},   
+{
+"title": "Mie Aceh Kuah",
+"img": "gambar/mieacehkuah.jpg",
+"file": "resep/mieacehkuah.html",
+"category": ["mie"]
+},      
+{
+"title": "Mie Aceh Tumis",
+"img": "gambar/mieacehtumis.jpg",
+"file": "resep/mieacehtumis.html",
+"category": ["mie"]
+},    
+{
+"title": "Mie Celor palembang",
+"img": "gambar/miecelorpalembang.jpeg",
+"file": "resep/miecelorpalembang.html",
+"category": ["mie"]
+},    
+{
+"title": "Mie Kocok Bandung",
+"img": "gambar/miekocokbandung.jpg",
+"file": "resep/miekocokbandung.html",
+"category": ["mie"]
+},
+{
+"title": "Mie Titi Makassar",
+"img": "gambar/mietitimakassar.jpg",
+"file": "resep/mietitimakassar.html",
+"category": ["mie"]
+},    
+{
+"title": "Mie Ongklok wonosobo",
+"img": "gambar/mieongklokwonosobo.jpg",
+"file": "resep/mieongklokwonosobo.html",
+"category": ["mie"]
+}, 
+{
+"title": "Mie Gomak Batak",
+"img": "gambar/miegomakbatak.jpg",
+"file": "resep/miegomakbatak.html",
+"category": ["mie"]
+},
+{
+"title": "Mie Rebus Medan",
+"img": "gambar/mierebusmedan.jpg",
+"file": "resep/mierebusmedan.html",
+"category": ["mie"]
+},      
+{
+"title": "Bihun Goreng Kampung",
+"img": "gambar/bihungorengkampung.jpg",
+"file": "resep/bihungorengkampung.html",
+"category": ["bihun"]
+},      
+{
+"title": "Bihun Goreng Seafood",
+"img": "gambar/bihungorengseafood.jpg",
+"file": "resep/bihungorengseafood.html",
+"category": ["bihun","seafood"]
+},      
+{
+"title": "Bihun Goreng Ayam",
+"img": "gambar/bihungorengayam.jpg",
+"file": "resep/bihungorengayam.html",
+"category": ["bihun","ayam"]
+}, 
+{
+"title": "Bihun Kuah Lezat",
+"img": "gambar/bihunkuahlezat.jpg",
+"file": "resep/bihunkuahlezat.html",
+"category": ["bihun"]
+}, 
+{
+"title": "Bihun Sup Malaysia",
+"img": "gambar/bihunsupmalaysia.jpg",
+"file": "resep/bihunsupmalaysia.html",
+"category": ["bihun","sup"]
+},
+{
+"title": "Bihun Bebek Medan",
+"img": "gambar/bihunbebekmedan.jpg",
+"file": "resep/bihunbebekmedan.html",
+"category": ["bihun","bebek"]
+},
+{
+"title": "Bihun Kari Ayam",
+"img": "gambar/bihunkariayam.jpg",
+"file": "resep/bihunkariayam.html",
+"category": ["bihun","ayam"]
+},
+{
+"title": "Bakmi Goreng",
+"img": "gambar/bakmigoreng.jpg",
+"file": "resep/bakmigoreng.html",
+"category": ["mie"]
+},
+{
+"title": "Bakmi Kuah",
+"img": "gambar/bakmikuah.jpg",
+"file": "resep/bakmikuah.html",
+"category": ["mie"]
+},
+{
+"title": "Soto Ayam Kampung",
+"img": "gambar/sotoayamkampung.jpg",
+"file": "resep/sotoayamkampung.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Ayam Bening",
+"img": "gambar/sotoayambening.jpg",
+"file": "resep/sotoayambening.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Ayam Santan",
+"img": "gambar/sotoayamsantan.jpg",
+"file": "resep/sotoayamsantan.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Kudus Ayam",
+"img": "gambar/sotokudusayam.jpg",
+"file": "resep/sotokudusayam.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Kudus Kerbau",
+"img": "gambar/sotokuduskerbau.jpg",
+"file": "resep/sotokuduskerbau.html",
+"category": ["soto","daging"]
+},
+{
+"title": "Soto Ayam Lamongan",
+"img": "gambar/sotoayamlamongan.jpg",
+"file": "resep/sotoayamlamongan.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Daging Madura",
+"img": "gambar/sotodagingmadura.jpg",
+"file": "resep/sotodagingmadura.html",
+"category": ["soto","daging"]
+},
+{
+"title": "Soto Ayam Banyumas",
+"img": "gambar/sotoayambanyumas.jpg",
+"file": "resep/sotoayambanyumas.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Ayam Semarang",
+"img": "gambar/sotoayamsemarang.jpg",
+"file": "resep/sotoayamsemarang.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Betawi",
+"img": "gambar/sotobetawi.jpeg",
+"file": "resep/sotobetawi.html",
+"category": ["soto","daging"]
+},
+
+{
+"title": "Soto Tangkar",
+"img": "gambar/sototangkar.jpg",
+"file": "resep/sototangkar.html",
+"category": ["soto","daging"]
+},
+{
+"title": "Soto Padang",
+"img": "gambar/sotopadang.jpg",
+"file": "resep/sotopadang.html",
+"category": ["soto","daging"]
+},
+{
+"title": "Soto Ayam Medan",
+"img": "gambar/sotoayammedan.jpg",
+"file": "resep/sotoayammedan.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Banjar Kalimantan",
+"img": "gambar/sotobanjarkalimantan.jpg",
+"file": "resep/sotobanjarkalimantan.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Soto Makassar",
+"img": "gambar/sotomakassar.jpg",
+"file": "resep/sotomakassar.html",
+"category": ["soto","daging"]
+},
+{
+"title": "Soto Babat Sapi",
+"img": "gambar/sotobabatsapi.jpg",
+"file": "resep/sotobabatsapi.html",
+"category": ["soto","daging"]
+},
+{
+"title": "Soto Ayam Ceker",
+"img": "gambar/sotoayamceker.jpg",
+"file": "resep/sotoayamceker.html",
+"category": ["soto","ayam"]
+},
+{
+"title": "Sup Ayam Kampung",
+"img": "gambar/supayamkampung.jpg",
+"file": "resep/supayamkampung.html",
+"category": ["sup","ayam"]
+},
+{
+"title": "Sup Ayam Bening",
+"img": "gambar/supayambening.jpg",
+"file": "resep/supayambening.html",
+"category": ["sup","ayam"]
+},
+{
+"title": "Sup Ayam Jagung",
+"img": "gambar/supayamjagung.jpg",
+"file": "resep/supayamjagung.html",
+"category": ["sup","ayam"]
+},
+{
+"title": "Sup Daging Sapi",
+"img": "gambar/supdagingsapi.jpg",
+"file": "resep/supdagingsapi.html",
+"category": ["sup","daging"]
+},
+{
+"title": "Sup Iga Sapi",
+"img": "gambar/supigasapi.jpg",
+"file": "resep/supigasapi.html",
+"category": ["sup","daging"]
+},
+{
+"title": "Sup Iga Bening",
+"img": "gambar/supigabening.jpg",
+"file": "resep/supigabening.html",
+"category": ["sup","daging"]
+},
+{
+"title": "Sup Bakso Sapi",
+"img": "gambar/supbaksosapi.jpg",
+"file": "resep/supbaksosapi.html",
+"category": ["sup","daging"]
+},
+{
+"title": "Sup Bakso Tahu",
+"img": "gambar/supbaksotahu.jpg",
+"file": "resep/supbaksotahu.html",
+"category": ["sup"]
+},
+{
+"title": "Sup Ikan Bening",
+"img": "gambar/supikanbening.jpeg",
+"file": "resep/supikanbening.html",
+"category": ["sup","ikan"]
+},
+{
+"title": "Sup Ikan Asam Pedas",
+"img": "gambar/supikanasampedas.jpg",
+"file": "resep/supikanasampedas.html",
+"category": ["sup","ikan"]
+},
+{
+"title": "Sup Seafood",
+"img": "gambar/supseafood.jpg",
+"file": "resep/supseafood.html",
+"category": ["sup","seafood"]
+},
+{
+"title": "Sup Wortel",
+"img": "gambar/supwortel.jpg",
+"file": "resep/supwortel.html",
+"category": ["sup","sayur"]
+},
+{
+"title": "Sup Sayur Campur",
+"img": "gambar/supsayurcampur.jpg",
+"file": "resep/supsayurcampur.html",
+"category": ["sup","sayur"]
+},
+{
+"title": "Sup Sayur Bening",
+"img": "gambar/supsayurbening.jpg",
+"file": "resep/supsayurbening.html",
+"category": ["sup","sayur"]
+},
+{
+"title": "Sayur Asem Sunda",
+"img": "gambar/sayurasemsunda.jpg",
+"file": "resep/sayurasemsunda.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Bening",
+"img": "gambar/sayurbening.jpg",
+"file": "resep/sayurbening.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Bening Bayam",
+"img": "gambar/sayurbeningbayam.jpg",
+"file": "resep/sayurbeningbayam.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Bening Oyong",
+"img": "gambar/sayurbeningoyong.jpg",
+"file": "resep/sayurbeningoyong.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Oyong Udang",
+"img": "gambar/sayuroyongudang.jpg",
+"file": "resep/sayuroyongudang.html",
+"category": ["sayur","seafood"]
+},
+{
+"title": "Sayur Tahu Kuah Santan",
+"img": "gambar/sayurtahukuahsantan.jpg",
+"file": "resep/sayurtahukuahsantan.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Buncis Kuah Santan",
+"img": "gambar/sayurbunciskuahsantan.jpg",
+"file": "resep/sayurbunciskuahsantan.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Jagung Bayam",
+"img": "gambar/sayurjagungbayam.jpg",
+"file": "resep/sayurjagungbayam.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Labu Air Bening",
+"img": "gambar/sayurlabuairbening.jpg",
+"file": "resep/sayurlabuairbening.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Gambas Oyong",
+"img": "gambar/sayurgambasoyong.jpg",
+"file": "resep/sayurgambasoyong.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Daun Singkong Santan",
+"img": "gambar/sayurdaunsingkongsantan.jpg",
+"file": "resep/sayurdaunsingkongsantan.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Lodeh",
+"img": "gambar/sayurlodeh.jpg",
+"file": "resep/sayurlodeh.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Sop",
+"img": "gambar/sayursop.jpg",
+"file": "resep/sayursop.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Nangka Muda Santan",
+"img": "gambar/sayurnangkamudasantan.jpg",
+"file": "resep/sayurnangkamudasantan.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Rebung",
+"img": "gambar/sayurrebung.jpg",
+"file": "resep/sayurrebung.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Kacang Merah",
+"img": "gambar/sayurkacangmerah.jpg",
+"file": "resep/sayurkacangmerah.html",
+"category": ["sayur"]
+},
+
+{
+"title": "Gulai Nangka",
+"img": "gambar/gulainangka.jpg",
+"file": "resep/gulainangka.html",
+"category": ["sayur"]
+},
+{
+"title": "Gulai Daun Singkong",
+"img": "gambar/gulaidaunsingkong.jpg",
+"file": "resep/gulaidaunsingkong.html",
+"category": ["sayur"]
+},
+{
+"title": "Gulai Labu Siam",
+"img": "gambar/gulailabusiam.jpg",
+"file": "resep/gulailabusiam.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Lodeh Terong",
+"img": "gambar/sayurlodehterong.jpg",
+"file": "resep/sayurlodehterong.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Santan Kacang Panjang",
+"img": "gambar/sayursantankacangpanjang.jpg",
+"file": "resep/sayursantankacangpanjang.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Tewel Lodeh Jawa",
+"img": "gambar/sayurtewellodehjawa.jpg",
+"file": "resep/sayurtewellodehjawa.html",
+"category": ["sayur"]
+},
+{
+"title": "Gado Gado",
+"img": "gambar/gadogado.jpeg",
+"file": "resep/gadogado.html",
+"category": ["sayur"]
+},
+{
+"title": "Karedok Sunda",
+"img": "gambar/karedoksunda.jpg",
+"file": "resep/karedoksunda.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Asam Jawa",
+"img": "gambar/sayurasamjawa.jpg",
+"file": "resep/sayurasamjawa.html",
+"category": ["sayur"]
+},
+{
+"title": "Urap Bali",
+"img": "gambar/urapbali.jpg",
+"file": "resep/urapbali.html",
+"category": ["sayur"]
+},
+{
+"title": "Lawar Khas Bali",
+"img": "gambar/lawarkhasbali.jpg",
+"file": "resep/lawarkhasbali.html",
+"category": ["sayur"]
+},
+{
+"title": "Pucuk Ubi Santan",
+"img": "gambar/pucukubisantan.jpg",
+"file": "resep/pucukubisantan.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Bening Daun Kelor",
+"img": "gambar/sayurbeningdaunkelor.jpg",
+"file": "resep/sayurbeningdaunkelor.html",
+"category": ["sayur"]
+},
+{
+"title": "Gulai Ayam Kampung",
+"img": "gambar/gulaiayamkampung.jpg",
+"file": "resep/gulaiayamkampung.html",
+"category": ["gulai","ayam"]
+},
+{
+"title": "Gulai Ayam Pedas",
+"img": "gambar/gulaiayampedas.jpg",
+"file": "resep/gulaiayampedas.html",
+"category": ["gulai","ayam"]
+},
+{
+"title": "Gulai Daging Sapi",
+"img": "gambar/gulaidagingsapi.jpg",
+"file": "resep/gulaidagingsapi.html",
+"category": ["gulai","daging"]
+},
+{
+"title": "Gulai Daging Kambing",
+"img": "gambar/gulaidagingkambing.jpg",
+"file": "resep/gulaidagingkambing.html",
+"category": ["gulai","daging"]
+},
+{
+"title": "Gulai Ikan Patin",
+"img": "gambar/gulaiikanpatin.jpg",
+"file": "resep/gulaiikanpatin.html",
+"category": ["gulai","ikan"]
+},
+{
+"title": "Gulai Ikan Kakap Merah",
+"img": "gambar/gulaiikankakapmerah.jpg",
+"file": "resep/gulaiikankakapmerah.html",
+"category": ["gulai","ikan"]
+},
+{
+"title": "Gulai Ikan Tongkol",
+"img": "gambar/gulaiikantongkol.jpg",
+"file": "resep/gulaiikantongkol.html",
+"category": ["gulai","ikan"]
+},
+{
+"title": "Gulai Ikan Tenggiri",
+"img": "gambar/gulaiikantenggiri.jpg",
+"file": "resep/gulaiikantenggiri.html",
+"category": ["gulai","ikan"]
+},
+{
+"title": "Gulai Udang Galah",
+"img": "gambar/gulaiudanggalah.jpg",
+"file": "resep/gulaiudanggalah.html",
+"category": ["gulai","seafood"]
+},
+{
+"title": "Gulai Seafood",
+"img": "gambar/gulaiseafood.jpg",
+"file": "resep/gulaiseafood.html",
+"category": ["gulai","seafood"]
+},
+{
+"title": "Gulai Babat",
+"img": "gambar/gulaibabat.jpg",
+"file": "resep/gulaibabat.html",
+"category": ["gulai","daging"]
+},
+{
+"title": "Gulai Paru Labu Siam",
+"img": "gambar/gulaiparulabusiam.jpg",
+"file": "resep/gulaiparulabusiam.html",
+"category": ["gulai","daging"]
+},
+{
+"title": "Gulai Kikil Tunjang",
+"img": "gambar/gulaikikiltunjang.jpg",
+"file": "resep/gulaikikiltunjang.html",
+"category": ["gulai","daging"]
+},
+{
+"title": "Gulai Otak Sapi",
+"img": "gambar/gulaiotaksapi.jpg",
+"file": "resep/gulaiotaksapi.html",
+"category": ["gulai","daging"]
+},
+{
+"title": "Gulai Telur",
+"img": "gambar/gulaitelur.jpg",
+"file": "resep/gulaitelur.html",
+"category": ["gulai"]
+},
+{
+"title": "Gulai Telur Puyuh",
+"img": "gambar/gulaitelurpuyuh.jpg",
+"file": "resep/gulaitelurpuyuh.html",
+"category": ["gulai"]
+},
+{
+"title": "Opor Ayam Kampung",
+"img": "gambar/oporayamkampung.jpg",
+"file": "resep/oporayamkampung.html",
+"category": ["opor","ayam"]
+},
+{
+"title": "Opor Ayam Kuning",
+"img": "gambar/oporayamkuning.jpg",
+"file": "resep/oporayamkuning.html",
+"category": ["opor","ayam"]
+},
+{
+"title": "Opor Daging",
+"img": "gambar/opordaging.jpg",
+"file": "resep/opordaging.html",
+"category": ["opor","daging"]
+},
+{
+"title": "Sayur Lodeh Labu Siam",
+"img": "gambar/sayurlodehlabusiam.jpg",
+"file": "resep/sayurlodehlabusiam.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Lodeh Nangka",
+"img": "gambar/sayurlodehnangka.jpg",
+"file": "resep/sayurlodehnangka.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Lodeh Tempe",
+"img": "gambar/sayurlodehtempe.jpg",
+"file": "resep/sayurlodehtempe.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Lodeh Kacang Panjang",
+"img": "gambar/sayurlodehkacangpanjang.jpg",
+"file": "resep/sayurlodehkacangpanjang.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Lodeh Jawa",
+"img": "gambar/sayurlodehjawa.jpg",
+"file": "resep/sayurlodehjawa.html",
+"category": ["sayur"]
+},
+{
+"title": "Sayur Lodeh Sunda",
+"img": "gambar/sayurlodehsunda.jpg",
+"file": "resep/sayurlodehsunda.html",
+"category": ["sayur"]
+},
+{
+"title": "Rendang Daging Sapi",
+"img": "gambar/rendangdagingsapi.jpg",
+"file": "resep/rendangdagingsapi.html",
+"category": ["rendang","daging"]
+},
+{
+"title": "Kari Ayam Kampung",
+"img": "gambar/kariayamkampung.jpg",
+"file": "resep/kariayamkampung.html",
+"category": ["kari","ayam"]
+},
+{
+"title": "Ayam Bakar Kecap",
+"img": "gambar/ayambakarkecap.jpg",
+"file": "resep/ayambakarkecap.html",
+"category": ["bakar","ayam"]
+},
+{
+"title": "Ayam Bakar Madu",
+"img": "gambar/ayambakarmadu.jpg",
+"file": "resep/ayambakarmadu.html",
+"category": ["bakar","ayam"]
+},
+{
+"title": "Ayam Bakar Pedas",
+"img": "gambar/ayambakarpedas.jpg",
+"file": "resep/ayambakarpedas.html",
+"category": ["bakar","ayam"]
+},
+{
+"title": "Ayam Bakar Bumbu Rujak",
+"img": "gambar/ayambakarbumburujak.jpg",
+"file": "resep/ayambakarbumburujak.html",
+"category": ["bakar","ayam"]
+},
+{
+"title": "Ayam Bakar Kalasan",
+"img": "gambar/ayambakarkalasan.jpg",
+"file": "resep/ayambakarkalasan.html",
+"category": ["bakar","ayam"]
+},
+{
+"title": "Ikan Bakar Kecap",
+"img": "gambar/ikanbakarkecap.jpg",
+"file": "resep/ikanbakarkecap.html",
+"category": ["bakar","ikan"]
+},
+{
+"title": "Ikan Bakar Rica",
+"img": "gambar/ikanbakarrica.jpg",
+"file": "resep/ikanbakarrica.html",
+"category": ["bakar","ikan"]
+},
+{
+"title": "Ikan Bakar Sambal Matah",
+"img": "gambar/ikanbakarsambalmatah.jpg",
+"file": "resep/ikanbakarsambalmatah.html",
+"category": ["bakar","ikan"]
+},
+{
+"title": "Ikan Bakar Jimbaran",
+"img": "gambar/ikanbakarjimbaran.jpg",
+"file": "resep/ikanbakarjimbaran.html",
+"category": ["ikan"]
+},
+{
+"title": "Daging Bakar Kecap",
+"img": "gambar/dagingbakarkecap.jpg",
+"file": "resep/dagingbakarkecap.html",
+"category": ["bakar","daging"]
+},
+{
+"title": "Iga Bakar Pedas",
+"img": "gambar/igabakarpedas.jpg",
+"file": "resep/igabakarpedas.html",
+"category": ["bakar","daging"]
+},
+{
+"title": "Daging Bakar Lada Hitam",
+"img": "gambar/dagingbakarladahitam.jpg",
+"file": "resep/dagingbakarladahitam.html",
+"category": ["bakar","daging"]
+},
+{
+"title": "Daging Bakar Madu",
+"img": "gambar/dagingbakarmadu.jpg",
+"file": "resep/dagingbakarmadu.html",
+"category": ["bakar","daging"]
+},
+{
+"title": "Bebek Bakar Madura",
+"img": "gambar/bebekbakarmadura.jpg",
+"file": "resep/bebekbakarmadura.html",
+"category": ["bakar","bebek"]
+},
+{
+"title": "Seafood Bakar Asam Segar",
+"img": "gambar/seafoodbakarasamsegar.jpg",
+"file": "resep/seafoodbakarasamsegar.html",
+"category": ["bakar","seafood"]
+},
+{
+"title": "Cumi Bakar Pedas",
+"img": "gambar/cumibakarpedas.jpg",
+"file": "resep/cumibakarpedas.html",
+"category": ["bakar","seafood"]
+},
+{
+"title": "Sate Ayam",
+"img": "gambar/sateayam.jpg",
+"file": "resep/sateayam.html",
+"category": ["sate","ayam"]
+},
+{
+"title": "Sate Madura",
+"img": "gambar/satemadura.jpg",
+"file": "resep/satemadura.html",
+"category": ["sate","ayam"]
+},
+{
+"title": "Sate Padang",
+"img": "gambar/satepadang.jpg",
+"file": "resep/satepadang.html",
+"category": ["sate","daging"]
+},
+{
+"title": "Sate Kambing",
+"img": "gambar/satekambing.jpg",
+"file": "resep/satekambing.html",
+"category": ["sate","daging"]
+},
+{
+"title": "Sate Maranggi",
+"img": "gambar/satemaranggi.jpg",
+"file": "resep/satemaranggi.html",
+"category": ["sate","daging"]
+},
+{
+"title": "Sate Lilit Ikan Laut",
+"img": "gambar/satelilitikanlaut.jpg",
+"file": "resep/satelilitikanlaut.html",
+"category": ["sate","ikan"]
+},
+{
+"title": "Ayam Panggang",
+"img": "gambar/ayampanggang.jpg",
+"file": "resep/ayampanggang.html",
+"category": ["panggang","ayam"]
+},
+{
+"title": "Daging Sapi Panggang",
+"img": "gambar/dagingsapipanggang.jpg",
+"file": "resep/dagingsapipanggang.html",
+"category": ["panggang","daging"]
+},
+{
+"title": "Pepes Ikan Mas",
+"img": "gambar/pepesikanmas.jpg",
+"file": "resep/pepesikanmas.html",
+"category": ["pepes","ikan"]
+},
+{
+"title": "Pepes Ikan Nila",
+"img": "gambar/pepesikannila.jpg",
+"file": "resep/pepesikannila.html",
+"category": ["pepes","ikan"]
+},
+{
+"title": "Pepes Ikan Patin",
+"img": "gambar/pepesikanpatin.jpg",
+"file": "resep/pepesikanpatin.html",
+"category": ["pepes","ikan"]
+},
+{
+"title": "Pepes Ikan Kakap",
+"img": "gambar/pepesikankakap.jpg",
+"file": "resep/pepesikankakap.html",
+"category": ["pepes","ikan"]
+},
+{
+"title": "Pepes Ikan Kembung",
+"img": "gambar/pepesikankembung.jpg",
+"file": "resep/pepesikankembung.html",
+"category": ["pepes","ikan"]
+},
+{
+"title": "Pepes Ikan Tongkol",
+"img": "gambar/pepesikantongkol.jpg",
+"file": "resep/pepesikantongkol.html",
+"category": ["pepes","ikan"]
+},
+{
+"title": "Pepes Ikan Bandeng",
+"img": "gambar/pepesikanbandeng.jpg",
+"file": "resep/pepesikanbandeng.html",
+"category": ["pepes","ikan"]
+},
+{
+"title": "Pepes Ikan Teri",
+"img": "gambar/pepesikanteri.jpg",
+"file": "resep/pepesikanteri.html",
+"category": ["pepes","ikan"]
+},
+{
+"title": "Pepes Ayam Kemangi",
+"img": "gambar/pepesayamkemangi.jpg",
+"file": "resep/pepesayamkemangi.html",
+"category": ["pepes","ayam"]
+},
+{
+"title": "Pepes Udang",
+"img": "gambar/pepesudang.jpg",
+"file": "resep/pepesudang.html",
+"category": ["pepes","seafood"]
+},
+{
+"title": "Pepes Cumi",
+"img": "gambar/pepescumi.jpg",
+"file": "resep/pepescumi.html",
+"category": ["pepes","seafood"]
+},
+{
+"title": "Ikan Goreng Tepung",
+"img": "gambar/ikangorengtepung.jpg",
+"file": "resep/ikangorengtepung.html",
+"category": ["goreng","ikan"]
+},
+{
+"title": "Udang Goreng Tepung",
+"img": "gambar/udanggorengtepung.jpg",
+"file": "resep/udanggorengtepung.html",
+"category": ["goreng","seafood"]
+},
+{
+"title": "Udang Saus Tiram",
+"img": "gambar/udangsaustiram.jpg",
+"file": "resep/udangsaustiram.html",
+"category": ["seafood"]
+},
+{
+"title": "Udang Asam Manis",
+"img": "gambar/udangasammanis.jpg",
+"file": "resep/udangasammanis.html",
+"category": ["seafood"]
+},
+{
+"title": "Udang Balado",
+"img": "gambar/udangbalado.jpg",
+"file": "resep/udangbalado.html",
+"category": ["seafood"]
+},
+{
+"title": "Udang Rica-Rica",
+"img": "gambar/udangricarica.jpg",
+"file": "resep/udangricarica.html",
+"category": ["seafood"]
+},
+{
+"title": "Udang Saus Padang",
+"img": "gambar/udangsauspadang.jpg",
+"file": "resep/udangsauspadang.html",
+"category": ["seafood"]
+},
+{
+"title": "Udang Kuah Santan",
+"img": "gambar/udangkuahsantan.jpg",
+"file": "resep/udangkuahsantan.html",
+"category": ["seafood"]
+},
+{
+"title": "Cumi Goreng Tepung",
+"img": "gambar/cumigorengtepung.jpg",
+"file": "resep/cumigorengtepung.html",
+"category": ["seafood"]
+},
+{
+"title": "Cumi Asam Manis",
+"img": "gambar/cumiasammanis.jpg",
+"file": "resep/cumiasammanis.html",
+"category": ["seafood"]
+},
+{
+"title": "Cumi Saus Tiram",
+"img": "gambar/cumisaustiram.jpg",
+"file": "resep/cumisaustiram.html",
+"category": ["seafood"]
+},
+{
+"title": "Cumi Rica-Rica",
+"img": "gambar/cumiricarica.jpg",
+"file": "resep/cumiricarica.html",
+"category": ["seafood"]
+},
+{
+"title": "Kerang Saus Padang",
+"img": "gambar/kerangsauspadang.jpg",
+"file": "resep/kerangsauspadang.html",
+"category": ["seafood"]
+},
+{
+"title": "Kerang Saus Tiram",
+"img": "gambar/kerangsaustiram.jpg",
+"file": "resep/kerangsaustiram.html",
+"category": ["seafood"]
+},
+{
+"title": "Kerang Asam Manis",
+"img": "gambar/kerangasammanis.jpg",
+"file": "resep/kerangasammanis.html",
+"category": ["seafood"]
+},
+{
+"title": "Kerang Balado",
+"img": "gambar/kerangbalado.jpg",
+"file": "resep/kerangbalado.html",
+"category": ["seafood"]
+},
+{
+"title": "Kepiting Rebus",
+"img": "gambar/kepitingrebus.jpg",
+"file": "resep/kepitingrebus.html",
+"category": ["seafood"]
+},
+{
+"title": "Kepiting Saus Padang",
+"img": "gambar/kepitingsauspadang.jpg",
+"file": "resep/kepitingsauspadang.html",
+"category": ["seafood"]
+},
+{
+"title": "Kepiting Saus Tiram",
+"img": "gambar/kepitingsaustiram.jpg",
+"file": "resep/kepitingsaustiram.html",
+"category": ["seafood"]
+},
+{
+"title": "Kepiting Asam Manis",
+"img": "gambar/kepitingasammanis.jpg",
+"file": "resep/kepitingasammanis.html",
+"category": ["seafood"]
+},
+{
+"title": "Rawon Daging",
+"img": "gambar/rawondaging.jpg",
+"file": "resep/rawondaging.html",
+"category": ["daging"]
+},
+{
+"title": "Rawon Tetelan",
+"img": "gambar/rawontetelan.jpg",
+"file": "resep/rawontetelan.html",
+"category": ["daging"]
+},
+{
+"title": "Dendeng Balado",
+"img": "gambar/dendengbalado.jpg",
+"file": "resep/dendengbalado.html",
+"category": ["daging"]
+},
+{
+"title": "Tongseng Kambing",
+"img": "gambar/tongsengkambing.jpg",
+"file": "resep/tongsengkambing.html",
+"category": ["daging"]
+},
+{
+"title": "Ongseng Daging Pedas",
+"img": "gambar/ongsengdagingpedas.jpg",
+"file": "resep/ongsengdagingpedas.html",
+"category": ["daging"]
+},
+{
+"title": "Ongseng Daging Kecap",
+"img": "gambar/ongsengdagingkecap.jpg",
+"file": "resep/ongsengdagingkecap.html",
+"category": ["ongseng","daging"]
+},
+{
+"title": "Ongseng Buncis",
+"img": "gambar/ongsengbuncis.jpg",
+"file": "resep/ongsengbuncis.html",
+"category": ["ongseng","sayur"]
+},
+{
+"title": "Ongseng Kacang Panjang",
+"img": "gambar/ongsengkacangpanjang.jpg",
+"file": "resep/ongsengkacangpanjang.html",
+"category": ["ongseng","sayur"]
+},
+{
+"title": "Ongseng Kubis",
+"img": "gambar/ongsengkubis.jpg",
+"file": "resep/ongsengkubis.html",
+"category": ["ongseng","sayur"]
+},
+{
+"title": "Ongseng Tauge",
+"img": "gambar/ongsengtauge.jpg",
+"file": "resep/ongsengtauge.html",
+"category": ["ongseng","sayur"]
+},
+{
+"title": "Ongseng Labu Siam",
+"img": "gambar/ongsenglabusiam.jpg",
+"file": "resep/ongsenglabusiam.html",
+"category": ["ongseng","sayur"]
+},
+{
+"title": "Ongseng Genjer",
+"img": "gambar/ongsenggenjer.jpg",
+"file": "resep/ongsenggenjer.html",
+"category": ["ongseng","sayur"]
+},
+{
+"title": "Ongseng Daun Pepaya",
+"img": "gambar/ongsengdaunpepaya.jpg",
+"file": "resep/ongsengdaunpepaya.html",
+"category": ["ongseng","sayur"]
+},
+{
+"title": "Cah Kangkung",
+"img": "gambar/cahkangkung.jpg",
+"file": "resep/cahkangkung.html",
+"category": ["tumis","sayur"]
+},
+{
+"title": "Tahu Goreng Isi",
+"img": "gambar/tahugorengisi.jpg",
+"file": "resep/tahugorengisi.html",
+"category": ["goreng"]
+},
+{
+"title": "Tempe Mendoan",
+"img": "gambar/tempemendoan.jpg",
+"file": "resep/tempemendoan.html",
+"category": ["goreng"]
+},
+{
+"title": "Tumis Pare",
+"img": "gambar/tumispare.jpg",
+"file": "resep/tumispare.html",
+"category": ["tumis","sayur"]
+},
+{
+"title": "Tumis Cabai Ijo",
+"img": "gambar/tumiscabaiijo.jpg",
+"file": "resep/tumiscabaiijo.html",
+"category": ["tumis"]
+},
+{
+"title": "Orek Tempe Kering",
+"img": "gambar/orektempekering.jpg",
+"file": "resep/orektempekering.html",
+"category": ["tumis"]
+},
+{
+"title": "Tempe Teri Kacang",
+"img": "gambar/tempeterikacang.jpg",
+"file": "resep/tempeterikacang.html",
+"category": ["tumis"]
+},
+{
+"title": "Telur Orak-Arik",
+"img": "gambar/telurorakarik.jpg",
+"file": "resep/telurorakarik.html",
+"category": ["telur"]
+},
+{
+"title": "Ongseng Usus Ayam",
+"img": "gambar/ongsengususayam.jpg",
+"file": "resep/ongsengususayam.html",
+"category": ["ongseng","ayam"]
+},
+{
+"title": "Semur Jengkol",
+"img": "gambar/semurjengkol.jpg",
+"file": "resep/semurjengkol.html",
+"category": ["semur"]
+},
+{
+"title": "Tumis Sayur Spesial",
+"img": "gambar/tumissayurspesial.jpg",
+"file": "resep/tumissayurspesial.html",
+"category": ["tumis","sayur"]
+},
+{
+"title": "Lontong Balap",
+"img": "gambar/lontongbalap.jpg",
+"file": "resep/lontongbalap.html",
+"category": ["lontong"]
+},
+{
+"title": "Bakwan Jagung",
+"img": "gambar/bakwanjagung.jpg",
+"file": "resep/bakwanjagung.html",
+"category": ["goreng"]
+},
+{
+"title": "Perkedel Kentang",
+"img": "gambar/perkedelkentang.jpg",
+"file": "resep/perkedelkentang.html",
+"category": ["goreng"]
+},
+{
+"title": "Pisang Goreng Madu",
+"img": "gambar/pisanggorengmadu.jpg",
+"file": "resep/pisanggorengmadu.html",
+"category": ["goreng"]
+},
+{
+"title": "Singkong Goreng Keju",
+"img": "gambar/singkonggorengkeju.jpg",
+"file": "resep/singkonggorengkeju.html",
+"category": ["goreng"]
+},
+{
+"title": "Cireng",
+"img": "gambar/cireng.jpg",
+"file": "resep/cireng.html",
+"category": ["goreng"]
+},
+{
+"title": "Combro",
+"img": "gambar/combro.jpg",
+"file": "resep/combro.html",
+"category": ["goreng"]
+},
+{
+"title": "Misro",
+"img": "gambar/misro.jpg",
+"file": "resep/misro.html",
+"category": ["goreng"]
+},
+{
+"title": "Risol Mayo",
+"img": "gambar/risolmayo.jpg",
+"file": "resep/risolmayo.html",
+"category": ["goreng"]
+},
+{
+"title": "Tempe Orek",
+"img": "gambar/tempeorek.jpg",
+"file": "resep/tempeorek.html",
+"category": ["tumis"]
+},
+{
+"title": "Tempe Balado",
+"img": "gambar/tempebalado.jpg",
+"file": "resep/tempebalado.html",
+"category": ["tumis"]
+},
+{
+"title": "Tumis Tempe",
+"img": "gambar/tumistempe.jpg",
+"file": "resep/tumistempe.html",
+"category": ["tumis"]
+},
+{
+"title": "Tumis Sawi Hijau",
+"img": "gambar/tumissawihijau.jpg",
+"file": "resep/tumissawihijau.html",
+"category": ["tumis","sayur"]
+},
+{
+"title": "Tumis Brokoli",
+"img": "gambar/tumisbrokoli.jpg",
+"file": "resep/tumisbrokoli.html",
+"category": ["tumis","sayur"]
+},
+{
+"title": "Tumis Capcay",
+"img": "gambar/tumiscapcay.jpg",
+"file": "resep/tumiscapcay.html",
+"category": ["tumis","sayur"]
+}, 
 {"id": "nasigorengkampung",
 "title":"Nasi Goreng Kampung",
 "img":"gambar/nasigorengkampung.jpg",
