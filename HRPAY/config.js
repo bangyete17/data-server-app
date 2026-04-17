@@ -95,3 +95,48 @@ const CONFIG = {
     maxjp: { value: "11086300" }
   }
 };
+
+// ===== APLYCONFIG start =====
+function applyConfig(){
+
+  // ===== INPUT (SEMUA) =====
+  for(const id in CONFIG.inputs){
+    const el = document.getElementById(id);
+    if(!el) continue;
+
+    const cfg = CONFIG.inputs[id];
+
+    if(cfg.placeholder !== undefined) el.placeholder = cfg.placeholder;
+    if(cfg.value !== undefined) el.value = cfg.value;
+    if(cfg.min !== undefined) el.min = cfg.min;
+    if(cfg.max !== undefined) el.max = cfg.max;
+    if(cfg.step !== undefined) el.step = cfg.step;
+  }
+
+  // ===== BPJS =====
+  for(const id in CONFIG.bpjs){
+    const el = document.getElementById(id);
+    if(!el) continue;
+
+    const cfg = CONFIG.bpjs[id];
+
+    if(cfg.placeholder !== undefined) el.placeholder = cfg.placeholder;
+    if(cfg.value !== undefined) el.value = cfg.value;
+    if(cfg.min !== undefined) el.min = cfg.min;
+    if(cfg.max !== undefined) el.max = cfg.max;
+    if(cfg.step !== undefined) el.step = cfg.step;
+  }
+
+  // ===== SELECT =====
+  for(const id in CONFIG.selects){
+    const el = document.getElementById(id);
+    if(!el) continue;
+
+    el.innerHTML = CONFIG.selects[id].map(opt =>
+      `<option value="${opt.value}" ${opt.selected ? "selected" : ""}>
+        ${opt.text}
+      </option>`
+    ).join("");
+  }
+}
+// ===== APLYCONFIG end =====
