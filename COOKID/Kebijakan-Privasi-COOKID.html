@@ -140,6 +140,12 @@ document.addEventListener("DOMContentLoaded", function () {
     headerTitle.textContent = h1.textContent;
   }
 });
+
+if (h1 && headerTitle && h1.textContent.trim() !== "") {
+  headerTitle.textContent = h1.textContent;
+}
+
+const h1 = document.querySelector(".contentHTML h1");
 </script>
 </body>
 </html>
