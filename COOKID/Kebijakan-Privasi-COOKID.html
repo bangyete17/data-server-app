@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Developer Portfolio Yadin XD</title>
+<title>apps</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 *{ margin:0; padding:0; box-sizing:border-box; font-family:Arial,sans-serif;}
@@ -11,10 +11,10 @@ body{ background:#f5f7fb; color:#1f2937; display:flex; justify-content:center;}
 header{ padding:20px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; margin-bottom:12px;}
 .headerName{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;}
 .headerTitle{ font-size:20px; font-weight:700; color:#1541a1; letter-spacing:0.5px; line-height:1.3;}
+article h1 { font-size: 0; height: 0; overflow: hidden;}
 .social{ margin-top:10px; padding:8px; display:flex; justify-content:center; align-items:center; gap:12px; border:1px solid #e5e7eb; border-radius:10px; flex-wrap:wrap;}
 .social a{ text-decoration:none; color:#2563eb; font-size:12px; padding:4px 6px;}
 .social a:hover{ text-decoration:underline;} 
-.headerDesc{ margin-top:5px; font-size:12px; color:#6b7280;}
 .wrapcontentHTML{ text-align:center; background:#fff; border:1px solid #e5e7eb; border-radius:14px; padding:14px; display:flex; flex-direction:column; gap:50px;}
 .btn-home{text-align:center;}
 .btnhome{padding:1px 100px;background:#e5e7eb;color:#1f2937;text-decoration:none;border-radius:10px;display:inline-block;justify-content:center}
@@ -43,8 +43,7 @@ a:hover{text-decoration:underline}
 <!-- HEADER -->
 <header id="header"><!--header start --> 
 <div class="headerName">
-<div class="headerTitle">Yadin XD</div>
-<div class="headerDesc">A lazy guy with big dreams</div>
+<div class="headerTitle"></div>
 </div> 
 <div class="social">
 <a href="https://bangyete17.github.io">GitHub</a>
@@ -125,15 +124,25 @@ Aplikasi ini dirancang untuk membantu pengguna menemukan inspirasi memasak, mula
 
 
 
+
 <div class="contact">📧 Kontak: <a href="mailto:bangyete17@gmail.com">Yadin XD</a><br></div>
 <div class="btn-home"><a class="btnhome" href="https://bangyete17.github.io/"></a></div>
 </div><!--contentHTML end --> 
 </div><!--wrapcontentHTML end -->   
 <div class="footer">© Yadin XD — A lazy guy with big dreams</div>
 </div><!--container end -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const h1 = document.querySelector("h1");
+  const headerTitle = document.getElementById("header-title");
+
+  if (h1 && headerTitle) {
+    headerTitle.textContent = h1.textContent;
+  }
+});
+</script>
 </body>
 </html>
-
 
 
 
