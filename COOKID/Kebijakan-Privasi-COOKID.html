@@ -133,19 +133,13 @@ Aplikasi ini dirancang untuk membantu pengguna menemukan inspirasi memasak, mula
 </div><!--container end -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const h1 = document.querySelector("h1");
+  const h1 = document.querySelector(".contentHTML h1");
   const headerTitle = document.getElementById("header-title");
 
-  if (h1 && headerTitle) {
+  if (h1 && headerTitle && h1.textContent.trim() !== "") {
     headerTitle.textContent = h1.textContent;
   }
 });
-
-if (h1 && headerTitle && h1.textContent.trim() !== "") {
-  headerTitle.textContent = h1.textContent;
-}
-
-const h1 = document.querySelector(".contentHTML h1");
 </script>
 </body>
 </html>
