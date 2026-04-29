@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "judul": "Doa Sebelum Makan",
+    "arab": "اللهم بارك لنا فيما رزقتنا وقنا عذاب النار",
+    "latin": "Allahumma barik lana fima razaqtana wa qina adzaban nar",
+    "arti": "Ya Allah berkahilah rezeki yang Engkau berikan kepada kami dan peliharalah kami dari siksa neraka."
+  },
+  {
+    "id": 2,
+    "judul": "Doa Sesudah Makan",
+    "arab": "الحمد لله الذي أطعمنا وسقانا وجعلنا من المسلمين",
+    "latin": "Alhamdulillahilladzi ath'amana wa saqana wa ja'alana minal muslimin",
+    "arti": "Segala puji bagi Allah yang telah memberi kami makan dan minum serta menjadikan kami muslim."
+  },
+  {
+    "id": 3,
+    "judul": "Doa Sebelum Tidur",
+    "arab": "باسمك اللهم أموت وأحيا",
+    "latin": "Bismika Allahumma amutu wa ahya",
+    "arti": "Dengan nama-Mu ya Allah aku mati dan hidup."
+  },
+  {
+    "id": 4,
+    "judul": "Doa Bangun Tidur",
+    "arab": "الحمد لله الذي أحيانا بعدما أماتنا وإليه النشور",
+    "latin": "Alhamdulillahilladzi ahyana ba'da ma amatana wa ilaihin nusyur",
+    "arti": "Segala puji bagi Allah yang menghidupkan kami setelah mematikan kami."
+  },
+  {
+    "id": 5,
+    "judul": "Doa Masuk Rumah",
+    "arab": "بسم الله ولجنا وبسم الله خرجنا وعلى ربنا توكلنا",
+    "latin": "Bismillahi walajna wa bismillahi kharajna wa ala rabbina tawakkalna",
+    "arti": "Dengan nama Allah kami masuk dan keluar, dan kepada Allah kami bertawakal."
+  }
+]
