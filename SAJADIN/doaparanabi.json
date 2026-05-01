@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nama": "Doa Nabi Yunus",
+    "arab": "لَا إِلَٰهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
+    "latin": "La ilaha illa anta subhanaka inni kuntu minaz-zalimin",
+    "arti": "Tidak ada Tuhan selain Engkau, Maha Suci Engkau, sesungguhnya aku termasuk orang-orang zalim."
+  },
+  {
+    "id": 2,
+    "nama": "Doa Nabi Ibrahim",
+    "arab": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ",
+    "latin": "Rabbij‘alni muqimas-salah",
+    "arti": "Ya Tuhanku, jadikanlah aku orang yang mendirikan shalat."
+  }
+]
