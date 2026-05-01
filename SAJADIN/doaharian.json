@@ -4,7 +4,7 @@
     "judul": "Doa Sebelum Makan",
     "arab": "اللهم بارك لنا فيما رزقتنا وقنا عذاب النار",
     "latin": "Allahumma barik lana fima razaqtana wa qina adzaban nar",
-    "arti": "Ya Allah berkahilah rezeki yang Engkau berikan kepada kami dan peliharalah kami dari siksa neraka."
+    "arti": "Ya Allah berkahilah rezeki yang Engkau berikan kepada kami dan lindungi kami dari siksa neraka."
   },
   {
     "id": 2,
@@ -18,20 +18,83 @@
     "judul": "Doa Sebelum Tidur",
     "arab": "باسمك اللهم أموت وأحيا",
     "latin": "Bismika Allahumma amutu wa ahya",
-    "arti": "Dengan nama-Mu ya Allah aku mati dan hidup."
+    "arti": "Dengan nama-Mu ya Allah aku mati dan aku hidup."
   },
   {
     "id": 4,
     "judul": "Doa Bangun Tidur",
     "arab": "الحمد لله الذي أحيانا بعدما أماتنا وإليه النشور",
     "latin": "Alhamdulillahilladzi ahyana ba'da ma amatana wa ilaihin nusyur",
-    "arti": "Segala puji bagi Allah yang menghidupkan kami setelah mematikan kami."
+    "arti": "Segala puji bagi Allah yang menghidupkan kami setelah mematikan kami dan kepada-Nya kami kembali."
   },
   {
     "id": 5,
     "judul": "Doa Masuk Rumah",
     "arab": "بسم الله ولجنا وبسم الله خرجنا وعلى ربنا توكلنا",
-    "latin": "Bismillahi walajna wa bismillahi kharajna wa ala rabbina tawakkalna",
-    "arti": "Dengan nama Allah kami masuk dan keluar, dan kepada Allah kami bertawakal."
+    "latin": "Bismillahi walajna wa bismillahi kharajna wa 'ala rabbina tawakkalna",
+    "arti": "Dengan nama Allah kami masuk dan keluar serta kepada Tuhan kami bertawakal."
+  },
+  {
+    "id": 6,
+    "judul": "Doa Keluar Rumah",
+    "arab": "بسم الله توكلت على الله ولا حول ولا قوة إلا بالله",
+    "latin": "Bismillahi tawakkaltu 'alallah wa la hawla wa la quwwata illa billah",
+    "arti": "Dengan nama Allah aku bertawakal kepada Allah, tidak ada daya dan kekuatan kecuali dengan Allah."
+  },
+  {
+    "id": 7,
+    "judul": "Doa Masuk Kamar Mandi",
+    "arab": "اللهم إني أعوذ بك من الخبث والخبائث",
+    "latin": "Allahumma inni a'udzu bika minal khubutsi wal khaba'its",
+    "arti": "Ya Allah aku berlindung kepada-Mu dari setan laki-laki dan perempuan."
+  },
+  {
+    "id": 8,
+    "judul": "Doa Keluar Kamar Mandi",
+    "arab": "غفرانك",
+    "latin": "Ghufranaka",
+    "arti": "Aku memohon ampunan-Mu ya Allah."
+  },
+  {
+    "id": 9,
+    "judul": "Doa Sebelum Belajar",
+    "arab": "رب زدني علما وارزقني فهما",
+    "latin": "Rabbi zidni ilma warzuqni fahma",
+    "arti": "Ya Tuhanku tambahkanlah aku ilmu dan berikan aku pemahaman."
+  },
+  {
+    "id": 10,
+    "judul": "Doa Setelah Belajar",
+    "arab": "اللهم انفعني بما علمتني وعلمني ما ينفعني وزدني علما",
+    "latin": "Allahumma anfa'ni bima 'allamtani wa 'allimni ma yanfa'uni wa zidni ilma",
+    "arti": "Ya Allah berikan manfaat dari ilmu yang Engkau ajarkan dan tambahkan ilmu kepadaku."
+  },
+  {
+    "id": 11,
+    "judul": "Doa Memakai Pakaian",
+    "arab": "الحمد لله الذي كساني هذا ورزقنيه من غير حول مني ولا قوة",
+    "latin": "Alhamdulillahilladzi kasani hadza wa razaqanihi min ghairi hawlin minni wa la quwwah",
+    "arti": "Segala puji bagi Allah yang telah memberiku pakaian ini tanpa daya dariku."
+  },
+  {
+    "id": 12,
+    "judul": "Doa Melepas Pakaian",
+    "arab": "بسم الله الذي لا إله إلا هو",
+    "latin": "Bismillahi alladzi la ilaha illa huwa",
+    "arti": "Dengan nama Allah yang tiada Tuhan selain Dia."
+  },
+  {
+    "id": 13,
+    "judul": "Doa Masuk Masjid",
+    "arab": "اللهم افتح لي أبواب رحمتك",
+    "latin": "Allahumma افتح li abwaba rahmatik",
+    "arti": "Ya Allah bukakanlah pintu-pintu rahmat-Mu untukku."
+  },
+  {
+    "id": 14,
+    "judul": "Doa Keluar Masjid",
+    "arab": "اللهم إني أسألك من فضلك",
+    "latin": "Allahumma inni as'aluka min fadlik",
+    "arti": "Ya Allah aku memohon kepada-Mu karunia-Mu."
   }
 ]
