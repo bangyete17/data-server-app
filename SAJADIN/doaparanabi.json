@@ -4,13 +4,69 @@
     "nama": "Doa Nabi Yunus",
     "arab": "لَا إِلَٰهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
     "latin": "La ilaha illa anta subhanaka inni kuntu minaz-zalimin",
-    "arti": "Tidak ada Tuhan selain Engkau, Maha Suci Engkau, sesungguhnya aku termasuk orang-orang zalim."
+    "arti": "Tidak ada Tuhan selain Engkau, Maha Suci Engkau, sesungguhnya aku termasuk orang-orang yang zalim."
   },
   {
     "id": 2,
     "nama": "Doa Nabi Ibrahim",
-    "arab": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ",
-    "latin": "Rabbij‘alni muqimas-salah",
-    "arti": "Ya Tuhanku, jadikanlah aku orang yang mendirikan shalat."
+    "arab": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِن ذُرِّيَّتِي",
+    "latin": "Rabbij‘alni muqimas-salah wa min dzurriyati",
+    "arti": "Ya Tuhanku, jadikanlah aku dan keturunanku orang yang mendirikan shalat."
+  },
+  {
+    "id": 3,
+    "nama": "Doa Nabi Ibrahim & Ismail",
+    "arab": "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ",
+    "latin": "Rabbana taqabbal minna innaka antas-sami'ul 'alim",
+    "arti": "Ya Tuhan kami, terimalah amal kami, sesungguhnya Engkau Maha Mendengar lagi Maha Mengetahui."
+  },
+  {
+    "id": 4,
+    "nama": "Doa Nabi Musa",
+    "arab": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي",
+    "latin": "Rabbi ishrah li sadri wa yassir li amri",
+    "arti": "Ya Tuhanku, lapangkanlah dadaku dan mudahkanlah urusanku."
+  },
+  {
+    "id": 5,
+    "nama": "Doa Nabi Zakaria",
+    "arab": "رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنتَ خَيْرُ الْوَارِثِينَ",
+    "latin": "Rabbi la tazarni fardan wa anta khairul waritsin",
+    "arti": "Ya Tuhanku, janganlah Engkau membiarkanku hidup seorang diri, dan Engkau adalah sebaik-baik pewaris."
+  },
+  {
+    "id": 6,
+    "nama": "Doa Nabi Adam",
+    "arab": "رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا",
+    "latin": "Rabbana zalamna anfusana wa illam taghfir lana",
+    "arti": "Ya Tuhan kami, kami telah menzalimi diri kami sendiri, jika Engkau tidak mengampuni kami..."
+  },
+  {
+    "id": 7,
+    "nama": "Doa Nabi Nuh",
+    "arab": "رَبِّ إِنِّي أَعُوذُ بِكَ أَنْ أَسْأَلَكَ مَا لَيْسَ لِي بِهِ عِلْمٌ",
+    "latin": "Rabbi inni a'udzu bika an as'alaka ma laysa li bihi 'ilm",
+    "arti": "Ya Tuhanku, aku berlindung kepada-Mu dari meminta sesuatu yang aku tidak ketahui."
+  },
+  {
+    "id": 8,
+    "nama": "Doa Nabi Ayyub",
+    "arab": "أَنِّي مَسَّنِيَ الضُّرُّ وَأَنتَ أَرْحَمُ الرَّاحِمِينَ",
+    "latin": "Anni massaniyad-durru wa anta arhamur rahimin",
+    "arti": "Sesungguhnya aku telah ditimpa penyakit, dan Engkau Maha Penyayang."
+  },
+  {
+    "id": 9,
+    "nama": "Doa Nabi Sulaiman",
+    "arab": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ",
+    "latin": "Rabbi awzi'ni an asykura ni'mataka",
+    "arti": "Ya Tuhanku, berilah aku kemampuan untuk mensyukuri nikmat-Mu."
+  },
+  {
+    "id": 10,
+    "nama": "Doa Nabi Muhammad ﷺ (Umum)",
+    "arab": "رَبِّ زِدْنِي عِلْمًا",
+    "latin": "Rabbi zidni ilma",
+    "arti": "Ya Tuhanku, tambahkanlah aku ilmu."
   }
 ]
