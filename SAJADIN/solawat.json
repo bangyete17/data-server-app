@@ -4,20 +4,20 @@
     "judul": "Shalawat Nariyah",
     "arab": "اللهم صل صلاة كاملة وسلم سلاما تاما على سيدنا محمد الذي تنحل به العقد وتنفرج به الكرب وتقضى به الحوائج",
     "latin": "Allahumma shalli shalatan kamilatan wa sallim salaman tamman 'ala sayyidina Muhammadinilladzi tanhallu bihil 'uqad wa tanfariju bihil kurab wa tuqdha bihil hawaij",
-    "arti": "Ya Allah limpahkanlah shalawat yang sempurna dan salam yang sempurna kepada junjungan kami Nabi Muhammad."
+    "arti": "Ya Allah limpahkanlah shalawat yang sempurna kepada Nabi Muhammad, pembuka kesulitan dan penenang kesedihan."
   },
   {
     "id": 2,
     "judul": "Shalawat Tibbil Qulub",
     "arab": "اللهم صل على سيدنا محمد طب القلوب ودوائها وعافية الأبدان وشفائها",
     "latin": "Allahumma shalli 'ala sayyidina Muhammad tibbil qulub wa dawa'iha wa 'afiyatil abdan wa syifa'iha",
-    "arti": "Ya Allah limpahkanlah shalawat kepada Nabi Muhammad, obat hati dan penyembuhnya."
+    "arti": "Ya Allah, limpahkan shalawat kepada Nabi Muhammad, obat hati dan penyembuh segala penyakit."
   },
   {
     "id": 3,
     "judul": "Shalawat Badar",
     "arab": "صلوات الله سلام الله على طه رسول الله",
-    "latin": "Sholawatullahi salamullahi 'ala Thaha Rasulillah",
+    "latin": "Shalawatullahi salamullahi 'ala Thaha Rasulillah",
     "arti": "Semoga shalawat dan salam Allah tercurah kepada Nabi Muhammad."
   },
   {
@@ -25,21 +25,21 @@
     "judul": "Shalawat Munjiyat",
     "arab": "اللهم صل على سيدنا محمد صلاة تنجينا بها من جميع الأهوال والآفات",
     "latin": "Allahumma shalli 'ala sayyidina Muhammad shalatan tunjina biha min jami'il ahwali wal afat",
-    "arti": "Ya Allah limpahkanlah shalawat yang menyelamatkan kami dari segala bahaya."
+    "arti": "Ya Allah, limpahkan shalawat yang menyelamatkan kami dari segala bahaya dan kesulitan."
   },
   {
     "id": 5,
     "judul": "Shalawat Fatih",
-    "arab": "اللهم صل على سيدنا محمد الفاتح لما أغلق",
-    "latin": "Allahumma shalli 'ala sayyidina Muhammadil fatihi lima ughliq",
-    "arti": "Ya Allah limpahkanlah shalawat kepada Nabi Muhammad pembuka segala yang tertutup."
+    "arab": "اللهم صل على سيدنا محمد الفاتح لما أغلق والخاتم لما سبق",
+    "latin": "Allahumma shalli 'ala sayyidina Muhammadil fatihi lima ughliq wal khatimi lima sabaq",
+    "arti": "Ya Allah, limpahkan shalawat kepada Nabi Muhammad, pembuka yang tertutup dan penutup segala risalah."
   },
   {
     "id": 6,
     "judul": "Shalawat Ibrahimiyah",
-    "arab": "اللهم صل على محمد وعلى آل محمد كما صليت على إبراهيم",
-    "latin": "Allahumma shalli 'ala Muhammad wa 'ala ali Muhammad kama shallaita 'ala Ibrahim",
-    "arti": "Ya Allah limpahkanlah shalawat kepada Nabi Muhammad dan keluarga Nabi Muhammad sebagaimana Engkau limpahkan kepada Nabi Ibrahim."
+    "arab": "اللهم صل على محمد وعلى آل محمد كما صليت على إبراهيم وعلى آل إبراهيم إنك حميد مجيد",
+    "latin": "Allahumma shalli 'ala Muhammad wa 'ala ali Muhammad kama shallaita 'ala Ibrahim wa 'ala ali Ibrahim innaka hamidun majid",
+    "arti": "Ya Allah, limpahkan shalawat kepada Nabi Muhammad dan keluarganya sebagaimana Engkau telah melimpahkan kepada Nabi Ibrahim."
   },
   {
     "id": 7,
@@ -51,8 +51,36 @@
   {
     "id": 8,
     "judul": "Shalawat Adrikni",
-    "arab": "يا رسول الله سلام عليك",
-    "latin": "Ya Rasulallah salamun 'alaik",
-    "arti": "Wahai Rasulullah, salam sejahtera atasmu."
+    "arab": "يا رسول الله أدركني",
+    "latin": "Ya Rasulallah adrikni",
+    "arti": "Wahai Rasulullah, tolonglah aku (bermakna memohon syafaat)."
+  },
+  {
+    "id": 9,
+    "judul": "Shalawat Al-Fatih Al-Maula",
+    "arab": "اللهم صل على سيدنا محمد الفاتح لما أغلق والخاتم لما سبق ناصر الحق بالحق",
+    "latin": "Allahumma shalli 'ala sayyidina Muhammadil fatihi lima ughliq wal khatimi lima sabaq nasiril haqq bil haqq",
+    "arti": "Ya Allah, limpahkan shalawat kepada Nabi Muhammad pembela kebenaran."
+  },
+  {
+    "id": 10,
+    "judul": "Shalawat Syifa",
+    "arab": "اللهم صل على سيدنا محمد شفاء القلوب ودوائها",
+    "latin": "Allahumma shalli 'ala sayyidina Muhammad syifa'ul qulub wa dawa'iha",
+    "arti": "Ya Allah, limpahkan shalawat kepada Nabi Muhammad, penyembuh hati."
+  },
+  {
+    "id": 11,
+    "judul": "Shalawat Kamaliyah",
+    "arab": "اللهم صل وسلم وبارك على سيدنا محمد الكامل",
+    "latin": "Allahumma shalli wa sallim wa barik 'ala sayyidina Muhammadil kamil",
+    "arti": "Ya Allah, limpahkan shalawat kepada Nabi Muhammad yang sempurna."
+  },
+  {
+    "id": 12,
+    "judul": "Shalawat Nuril Anwar",
+    "arab": "اللهم صل على نور الأنوار وسر الأسرار",
+    "latin": "Allahumma shalli 'ala nuril anwar wa sirril asrar",
+    "arti": "Ya Allah, limpahkan shalawat kepada cahaya segala cahaya (Nabi Muhammad)."
   }
 ]
