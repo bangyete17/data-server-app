@@ -1,98 +1,96 @@
+
 [
   {
     "id": 1,
     "judul": "Solat Subuh",
     "rakaat": "2 Rakaat",
-    "niat": "Ushalli fardhas shubhi rak'ataini mustaqbilal qiblati adaan lillaahi ta'aalaa",
-    "arti": "Aku berniat solat fardhu Subuh dua rakaat menghadap kiblat karena Allah Ta'ala.",
+
+    "niat": {
+      "arab": "أُصَلِّي فَرْضَ الصُّبْحِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلَّهِ تَعَالَى",
+      "latin": "Ushalli fardhas shubhi rak'ataini mustaqbilal qiblati adaan lillaahi ta'aalaa",
+      "arti": "Aku berniat sholat fardhu Subuh dua rakaat menghadap kiblat karena Allah Ta'ala."
+    },
+
     "langkah": [
-      "Takbiratul ihram",
-      "Membaca Al-Fatihah",
-      "Membaca surat pendek",
-      "Rukuk",
-      "I'tidal",
-      "Sujud",
-      "Duduk di antara dua sujud",
-      "Sujud kedua",
-      "Rakaat kedua",
-      "Tasyahud akhir",
-      "Salam"
-    ]
-  },
-  {
-    "id": 2,
-    "judul": "Solat Dzuhur",
-    "rakaat": "4 Rakaat",
-    "niat": "Ushalli fardhadz dzuhri arba'a raka'atin",
-    "arti": "Aku berniat solat fardhu Dzuhur empat rakaat karena Allah Ta'ala.",
-    "langkah": [
-      "Takbiratul ihram",
-      "Al-Fatihah",
-      "Surat pendek",
-      "Rukuk",
-      "I'tidal",
-      "Sujud",
-      "Rakaat kedua",
-      "Tasyahud awal",
-      "Rakaat ketiga",
-      "Rakaat keempat",
-      "Tasyahud akhir",
-      "Salam"
-    ]
-  },
-  {
-    "id": 3,
-    "judul": "Solat Ashar",
-    "rakaat": "4 Rakaat",
-    "niat": "Ushalli fardhal ashri arba'a raka'atin",
-    "arti": "Aku berniat solat fardhu Ashar empat rakaat karena Allah Ta'ala.",
-    "langkah": [
-      "Takbiratul ihram",
-      "Al-Fatihah",
-      "Surat pendek",
-      "Rukuk",
-      "I'tidal",
-      "Sujud",
-      "Tasyahud awal",
-      "Tasyahud akhir",
-      "Salam"
-    ]
-  },
-  {
-    "id": 4,
-    "judul": "Solat Maghrib",
-    "rakaat": "3 Rakaat",
-    "niat": "Ushalli fardhal maghribi tsalaatsa raka'atin",
-    "arti": "Aku berniat solat fardhu Maghrib tiga rakaat karena Allah Ta'ala.",
-    "langkah": [
-      "Takbiratul ihram",
-      "Al-Fatihah",
-      "Surat pendek",
-      "Rukuk",
-      "I'tidal",
-      "Sujud",
-      "Tasyahud awal",
-      "Rakaat ketiga",
-      "Tasyahud akhir",
-      "Salam"
-    ]
-  },
-  {
-    "id": 5,
-    "judul": "Solat Isya",
-    "rakaat": "4 Rakaat",
-    "niat": "Ushalli fardhal isyaa'i arba'a raka'atin",
-    "arti": "Aku berniat solat fardhu Isya empat rakaat karena Allah Ta'ala.",
-    "langkah": [
-      "Takbiratul ihram",
-      "Al-Fatihah",
-      "Surat pendek",
-      "Rukuk",
-      "I'tidal",
-      "Sujud",
-      "Tasyahud awal",
-      "Tasyahud akhir",
-      "Salam"
+      {
+        "judul": "Takbiratul Ihram",
+        "gambar": "https://bangyete17.github.io/data-server-app/SAJADIN/images/takbir.jpg",
+        "bacaan": {
+          "arab": "الله أكبر",
+          "latin": "Allahu Akbar",
+          "arti": "Allah Maha Besar"
+        }
+      },
+
+      {
+        "judul": "Membaca Al-Fatihah",
+        "gambar": "https://bangyete17.github.io/data-server-app/SAJADIN/images/fatihah.jpg",
+        "bacaan": {
+          "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "latin": "Bismillahirrahmanirrahim",
+          "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang"
+        }
+      },
+
+      {
+        "judul": "Rukuk",
+        "gambar": "https://bangyete17.github.io/data-server-app/SAJADIN/images/rukuk.jpg",
+        "bacaan": {
+          "arab": "سُبْحَانَ رَبِّيَ الْعَظِيمِ وَبِحَمْدِهِ",
+          "latin": "Subhaana rabbiyal 'adziimi wabihamdih",
+          "arti": "Maha Suci Tuhanku Yang Maha Agung"
+        }
+      },
+
+      {
+        "judul": "I'tidal",
+        "gambar": "https://bangyete17.github.io/data-server-app/SAJADIN/images/itidal.jpg",
+        "bacaan": {
+          "arab": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ",
+          "latin": "Sami'allaahu liman hamidah",
+          "arti": "Allah mendengar orang yang memuji-Nya"
+        }
+      },
+
+      {
+        "judul": "Sujud",
+        "gambar": "https://bangyete17.github.io/data-server-app/SAJADIN/images/sujud.jpg",
+        "bacaan": {
+          "arab": "سُبْحَانَ رَبِّيَ الأَعْلَى وَبِحَمْدِهِ",
+          "latin": "Subhaana rabbiyal a'la wabihamdih",
+          "arti": "Maha Suci Tuhanku Yang Maha Tinggi"
+        }
+      },
+
+      {
+        "judul": "Duduk di antara dua sujud",
+        "gambar": "https://bangyete17.github.io/data-server-app/SAJADIN/images/duduk.jpg",
+        "bacaan": {
+          "arab": "رَبِّ اغْفِرْ لِي",
+          "latin": "Rabbighfirlii",
+          "arti": "Ya Allah ampunilah aku"
+        }
+      },
+
+      {
+        "judul": "Tasyahud Akhir",
+        "gambar": "https://bangyete17.github.io/data-server-app/SAJADIN/images/tasyahud.jpg",
+        "bacaan": {
+          "arab": "التَّحِيَّاتُ لِلَّهِ...",
+          "latin": "Attahiyyaatu lillaah...",
+          "arti": "Segala penghormatan untuk Allah..."
+        }
+      },
+
+      {
+        "judul": "Salam",
+        "gambar": "https://bangyete17.github.io/data-server-app/SAJADIN/images/salam.jpg",
+        "bacaan": {
+          "arab": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+          "latin": "Assalaamu'alaikum warahmatullah",
+          "arti": "Semoga keselamatan dan rahmat Allah tercurah atas kalian"
+        }
+      }
     ]
   }
 ]
