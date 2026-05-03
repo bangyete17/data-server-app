@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>apps</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{ margin:0; padding:0; box-sizing:border-box; font-family:Arial,sans-serif;}
+body{ background:#f5f7fb; color:#1f2937; display:flex; justify-content:center;}
+.container{ width:100%; max-width:600px; padding:0 16px; border:1px solid #e5e7eb;}
+header{ padding:20px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; margin-bottom:12px;}
+.headerName{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;}
+.headerTitle{ font-size:20px; font-weight:700; color:#1541a1; letter-spacing:0.5px; line-height:1.3;}
+.contentHTML h1 {position: absolute;  left: -9999px;}
+.social{ margin-top:10px; padding:8px; display:flex; justify-content:center; align-items:center; gap:12px; border:1px solid #e5e7eb; border-radius:10px; flex-wrap:wrap;}
+.social a{ text-decoration:none; color:#2563eb; font-size:12px; padding:4px 6px;}
+.social a:hover{ text-decoration:underline;} 
+.wrapcontentHTML{ text-align:center; background:#fff; border:1px solid #e5e7eb; border-radius:14px; padding:14px; display:flex; flex-direction:column; gap:50px;}
+.btn-home{text-align:center;}
+.btnhome{padding:1px 100px;background:#e5e7eb;color:#1f2937;text-decoration:none;border-radius:10px;display:inline-block;justify-content:center}
+.btnhome:hover{opacity:.85}
+.btnhome::before{content:"⌂";font-size:30px}
+a{text-decoration:none;}
+h1{text-align:center;color:var(--primary);margin-bottom:10px}
+.subtitle{text-align:center;color:#777;margin-bottom:30px}
+h2{color:var(--primary);margin-top:30px;border-left:4px solid var(--accent);padding-left:10px}
+p{line-height:1.7}
+ul{padding-left:20px}
+li{margin-bottom:8px}
+.highlight{background:#eef6ff;padding:15px;border-left:4px solid var(--accent);border-radius:6px}
+.contact{background:#fafafa;padding:15px;border-radius:8px;margin-top:20px;margin-bottom:20px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.footer{ margin-top:20px; margin-bottom:20px; text-align:center; border-top:1px solid #e5e7eb; font-size:12px; color:#1f2937; padding:10px;}
+/* RESPONSIVE */
+@media (max-width:500px){
+.gridWrap{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<!-- CONTAINER -->
+<div class="container"><!--container start -->
+<!-- HEADER -->
+<header id="header"><!--header start --> 
+<div class="headerName">
+<div class="headerTitle" id="header-title"></div>
+</div> 
+<div class="social">
+<a href="https://bangyete17.github.io">GitHub</a>
+<a href="https://play.google.com/store/apps/developer?id=YadinXD">PlayStore</a>
+<a href="mailto:bangyete17@gmail.com">Email</a>
+</div>
+</header><!--header end -->
+<div class="wrapcontentHTML"><!--contentHTML start --> 
+<a class="btnhome" href="https://bangyete17.github.io/"></a>
+<div class="contentHTML"><!--contentHTML start --> 
+
+
+
+
+<h1>Kebijakan Privasi SAJADIN</h1>
+
+<p>
+SAJADIN adalah aplikasi sahabat ibadah muslim yang menyediakan berbagai fitur
+seperti jadwal salat, alarm pengingat salat, kompas kiblat, doa-doa, dan panduan ibadah.
+Privasi pengguna adalah hal yang penting bagi kami.
+</p>
+
+<h2>1. Data yang Kami Gunakan</h2>
+<p>
+Aplikasi SAJADIN dapat menggunakan beberapa izin perangkat untuk menjalankan fitur:
+</p>
+
+<ul>
+<li><b>Notifikasi & Alarm</b> → untuk pengingat waktu salat dan alarm adzan.</li>
+<li><b>Lokasi</b> → untuk menentukan arah kiblat dan jadwal salat berdasarkan wilayah pengguna.</li>
+<li><b>Internet</b> → untuk mengambil atau memperbarui sebagian data dari server/GitHub.</li>
+<li><b>Boot Device</b> → agar alarm salat aktif kembali setelah perangkat dinyalakan ulang.</li>
+</ul>
+
+<h2>2. Penggunaan Data Lokasi</h2>
+<p>
+Lokasi hanya digunakan untuk:
+</p>
+
+<ul>
+<li>Menentukan arah kiblat secara akurat</li>
+<li>Menyesuaikan jadwal salat berdasarkan lokasi pengguna</li>
+</ul>
+
+<p>
+Kami tidak menyimpan atau membagikan data lokasi pengguna.
+</p>
+
+<h2>3. Penggunaan Internet dan GitHub</h2>
+<p>
+Sebagian konten aplikasi seperti data doa, panduan ibadah, atau pembaruan konten
+dapat diambil dari repositori GitHub atau server terkait untuk memastikan informasi tetap terbaru.
+</p>
+
+<p>
+Data tersebut bersifat umum dan tidak mengambil data pribadi pengguna.
+</p>
+
+<h2>4. Alarm dan Notifikasi</h2>
+<p>
+Aplikasi menggunakan alarm dan notifikasi untuk mengingatkan waktu salat.
+Fitur ini berjalan berdasarkan jadwal yang tersimpan di perangkat pengguna.
+</p>
+
+<h2>5. Penyimpanan Data</h2>
+<p>
+Beberapa pengaturan seperti pilihan suara adzan, pengaturan alarm,
+dan preferensi aplikasi dapat disimpan secara lokal di perangkat pengguna.
+</p>
+
+<p>
+Kami tidak mengumpulkan data pribadi sensitif.
+</p>
+
+<h2>6. Pembagian Data</h2>
+<p>
+Kami tidak menjual, membagikan, atau menyebarkan data pribadi pengguna kepada pihak ketiga.
+</p>
+
+<h2>7. Keamanan</h2>
+<p>
+Kami berusaha menjaga keamanan aplikasi dan data pengguna dengan sebaik mungkin.
+</p>
+
+<h2>8. Hak Pengguna</h2>
+<ul>
+<li>Menolak izin lokasi</li>
+<li>Mematikan notifikasi</li>
+<li>Menghapus data aplikasi kapan saja</li>
+<li>Menghapus aplikasi kapan saja</li>
+</ul>
+
+<h2>9. Perubahan Kebijakan</h2>
+<p>
+Kebijakan privasi ini dapat diperbarui sewaktu-waktu sesuai perkembangan aplikasi.
+</p>
+
+
+
+<div class="contact">📧 Kontak: <a href="mailto:bangyete17@gmail.com">Yadin XD</a><br></div>
+<div class="btn-home"><a class="btnhome" href="https://bangyete17.github.io/"></a></div>
+</div><!--contentHTML end --> 
+</div><!--wrapcontentHTML end -->   
+<div class="footer">© Yadin XD — A lazy guy with big dreams</div>
+</div><!--container end -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const h1 = document.querySelector(".contentHTML h1");
+  const headerTitle = document.getElementById("header-title");
+
+  if (h1 && headerTitle && h1.textContent.trim() !== "") {
+    headerTitle.textContent = h1.textContent;
+  }
+});
+</script>
+</body>
+</html>
