@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>apps</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{ margin:0; padding:0; box-sizing:border-box; font-family:Arial,sans-serif;}
+body{ background:#f5f7fb; color:#1f2937; display:flex; justify-content:center;}
+.container{ width:100%; max-width:600px; padding:0 16px; border:1px solid #e5e7eb;}
+header{ padding:20px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; margin-bottom:12px;}
+.headerName{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;}
+.headerTitle{ font-size:20px; font-weight:700; color:#1541a1; letter-spacing:0.5px; line-height:1.3;}
+.contentHTML h1 {position: absolute;  left: -9999px;}
+.social{ margin-top:10px; padding:8px; display:flex; justify-content:center; align-items:center; gap:12px; border:1px solid #e5e7eb; border-radius:10px; flex-wrap:wrap;}
+.social a{ text-decoration:none; color:#2563eb; font-size:12px; padding:4px 6px;}
+.social a:hover{ text-decoration:underline;} 
+.wrapcontentHTML{ text-align:center; background:#fff; border:1px solid #e5e7eb; border-radius:14px; padding:14px; display:flex; flex-direction:column; gap:50px;}
+.btn-home{text-align:center;}
+.btnhome{padding:1px 100px;background:#e5e7eb;color:#1f2937;text-decoration:none;border-radius:10px;display:inline-block;justify-content:center}
+.btnhome:hover{opacity:.85}
+.btnhome::before{content:"⌂";font-size:30px}
+a{text-decoration:none;}
+h1{text-align:center;color:var(--primary);margin-bottom:10px}
+.subtitle{text-align:center;color:#777;margin-bottom:30px}
+h2{color:var(--primary);margin-top:30px;border-left:4px solid var(--accent);padding-left:10px}
+p{line-height:1.7}
+ul{padding-left:20px}
+li{margin-bottom:8px}
+.highlight{background:#eef6ff;padding:15px;border-left:4px solid var(--accent);border-radius:6px}
+.contact{background:#fafafa;padding:15px;border-radius:8px;margin-top:20px;margin-bottom:20px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.footer{ margin-top:20px; margin-bottom:20px; text-align:center; border-top:1px solid #e5e7eb; font-size:12px; color:#1f2937; padding:10px;}
+/* RESPONSIVE */
+@media (max-width:500px){
+.gridWrap{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<!-- CONTAINER -->
+<div class="container"><!--container start -->
+<!-- HEADER -->
+<header id="header"><!--header start --> 
+<div class="headerName">
+<div class="headerTitle" id="header-title"></div>
+</div> 
+<div class="social">
+<a href="https://bangyete17.github.io">GitHub</a>
+<a href="https://play.google.com/store/apps/developer?id=YadinXD">PlayStore</a>
+<a href="mailto:bangyete17@gmail.com">Email</a>
+</div>
+</header><!--header end -->
+<div class="wrapcontentHTML"><!--contentHTML start --> 
+<a class="btnhome" href="https://bangyete17.github.io/"></a>
+<div class="contentHTML"><!--contentHTML start --> 
+
+
+
+
+<h2>About FF Nickname Generator</h2>
+  <p>
+    FF Nickname Generator adalah aplikasi web sederhana yang dibuat untuk membantu pemain
+    membuat nama keren, unik, dan bergaya esports seperti pro player Free Fire.
+    Nama yang dihasilkan bersifat acak dengan berbagai kombinasi simbol, gaya, dan tema gaming.
+  </p>
+
+  <p>
+    Aplikasi ini hanya untuk hiburan dan inspirasi username, tidak berhubungan langsung dengan
+    <strong>Garena Free Fire</strong> atau pihak resmi manapun.
+  </p>
+
+  <h3>Fitur Utama</h3>
+  <ul>
+    <li>Generate nickname otomatis dengan sekali klik</li>
+    <li>Mode nama: Pro, Aesthetic, Symbol, dan Esports</li>
+    <li>Kombinasi simbol unik dan nama gamer</li>
+    <li>Fitur copy sekali tap</li>
+    <li>Desain UI bergaya esports modern</li>
+  </ul>
+
+  <h2>Privacy Policy</h2>
+  <p>
+    Kami menghargai privasi pengguna. Hal-hal berikut berlaku pada penggunaan aplikasi ini:
+  </p>
+
+  <ul>
+    <li>Aplikasi ini <strong>tidak mengumpulkan data pribadi</strong> pengguna.</li>
+    <li>Tidak ada akun, login, atau registrasi yang diperlukan.</li>
+    <li>Kami tidak menyimpan nama yang diketik atau nickname yang dihasilkan.</li>
+    <li>Semua proses berjalan langsung di browser pengguna (client-side).</li>
+    <li>Tidak ada data yang dikirim ke server eksternal.</li>
+  </ul>
+
+  <h3>Cookies</h3>
+  <ul>
+    <li>Aplikasi ini tidak menggunakan cookies untuk melacak pengguna.</li>
+    <li>Jika di masa depan digunakan analytics, hanya data anonim yang digunakan.</li>
+  </ul>
+
+  <h3>Third-Party Services</h3>
+  <ul>
+    <li>Aplikasi ini tidak menggunakan layanan pihak ketiga yang mengakses data pengguna.</li>
+  </ul>
+
+  <h2>Disclaimer</h2>
+  <ul>
+    <li>Aplikasi ini bukan produk resmi Garena Free Fire.</li>
+    <li>Semua nama yang dihasilkan hanya untuk hiburan.</li>
+    <li>Pengguna bertanggung jawab penuh atas penggunaan nickname yang dibuat.</li>
+  </ul>
+
+
+<div class="contact">📧 Kontak: <a href="mailto:bangyete17@gmail.com">Yadin XD</a><br></div>
+<div class="btn-home"><a class="btnhome" href="https://bangyete17.github.io/"></a></div>
+</div><!--contentHTML end --> 
+</div><!--wrapcontentHTML end -->   
+<div class="footer">© Yadin XD — A lazy guy with big dreams</div>
+</div><!--container end -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const h1 = document.querySelector(".contentHTML h1");
+  const headerTitle = document.getElementById("header-title");
+
+  if (h1 && headerTitle && h1.textContent.trim() !== "") {
+    headerTitle.textContent = h1.textContent;
+  }
+});
+</script>
+</body>
+</html>
