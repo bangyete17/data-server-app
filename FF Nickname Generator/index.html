@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>FF Nickname Generator - Pro Player</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    /* 🔥 lebih terang, bukan full hitam */
+    background: radial-gradient(circle at top, #1b2230, #0c0f16 60%, #0a0c12);
+    color: #f2f2f2;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  /* 🔥 HEADER (FF LOBBY GOLD + BLUE ACCENT) */
+  .ff-header {
+    padding: 20px 12px;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    background: linear-gradient(90deg, #1f2a44, #2c3e50, #f1c40f);
+    color: #fff;
+
+    border-bottom: 2px solid rgba(241, 196, 15, 0.4);
+
+    box-shadow: 0 2px 15px rgba(0,0,0,0.4);
+  }
+
+  .sub {
+    font-size: 11px;
+    opacity: 0.85;
+    margin-top: 4px;
+    letter-spacing: 2px;
+    color: #d0d0d0;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  /* 🔥 INPUT (CLEAN + SOFT LIGHT) */
+  input {
+    width: 85%;
+    padding: 12px;
+    border-radius: 10px;
+
+    border: 1px solid rgba(241, 196, 15, 0.25);
+
+    background: rgba(255,255,255,0.06);
+    color: #fff;
+
+    backdrop-filter: blur(6px);
+    outline: none;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+
+  input:focus {
+    border: 1px solid rgba(241, 196, 15, 0.6);
+    box-shadow: 0 0 12px rgba(241, 196, 15, 0.2);
+  }
+
+  /* 🔥 BUTTON (BRIGHT ESPORTS STYLE) */
+  .btn {
+    margin: 5px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    background: rgba(255,255,255,0.08);
+    color: #f1f1f1;
+
+    transition: 0.2s;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(241, 196, 15, 0.4);
+  }
+
+  /* 🔥 ACTIVE MODE (FF GOLD + BLUE MIX) */
+  .active {
+    background: linear-gradient(90deg, #f1c40f, #f39c12);
+    color: #111;
+    box-shadow: 0 0 12px rgba(241, 196, 15, 0.4);
+  }
+
+  /* 🔥 CARD (FF UI PANEL BRIGHT) */
+  .card {
+    background: rgba(255,255,255,0.06);
+
+    margin: 10px auto;
+    padding: 12px;
+    width: 85%;
+    border-radius: 12px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(6px);
+
+    transition: 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.02);
+    border: 1px solid rgba(241, 196, 15, 0.3);
+  }
+
+  .section-title {
+    margin-top: 15px;
+    font-size: 12px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+  }
+
+  .small {
+    font-size: 11px;
+    opacity: 0.6;
+  }
+
+  /* 🔥 BACKGROUND LIGHT GLOW (BIAR HIDUP) */
+  body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background:
+      radial-gradient(circle at 20% 20%, rgba(241,196,15,0.08), transparent 40%),
+      radial-gradient(circle at 80% 40%, rgba(52,152,219,0.08), transparent 40%),
+      radial-gradient(circle at 50% 80%, rgba(255,255,255,0.04), transparent 50%);
+
+    z-index: -1;
+  }
+
+.btn-generate {
+  margin-top: 12px;
+  padding: 14px 20px;
+
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  border-radius: 14px;
+
+  /* 🔥 FF MAIN ACTION COLOR */
+  background: linear-gradient(90deg, #f1c40f, #f39c12, #e67e22);
+
+  color: #111;
+
+  border: none;
+
+  box-shadow:
+    0 0 12px rgba(241, 196, 15, 0.4),
+    0 0 25px rgba(243, 156, 18, 0.2);
+
+  transition: 0.2s ease-in-out;
+
+  cursor: pointer;
+}
+
+/* 🔥 hover effect (FEEL LIKE GAME BUTTON) */
+.btn-generate:hover {
+  transform: scale(1.06);
+  box-shadow:
+    0 0 18px rgba(241, 196, 15, 0.6),
+    0 0 35px rgba(243, 156, 18, 0.3);
+}
+
+/* 🔥 click effect */
+.btn-generate:active {
+  transform: scale(0.98);
+  box-shadow: 0 0 8px rgba(241, 196, 15, 0.3);
+}
+
+.btn-generate.loading {
+  pointer-events: none;
+  opacity: 0.8;
+  transform: scale(0.98);
+}
+
+/* 🔥 spinner kecil */
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-top: 2px solid #111;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+    
+.ff-footer {
+  margin-top: 25px;
+  padding: 15px 10px;
+  font-size: 12px;
+  text-align: center;
+
+  background: rgba(255,255,255,0.04);
+  border-top: 1px solid rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(6px);
+}
+
+.ff-footer a {
+  color: #f1c40f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ff-footer a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+
+<header class="ff-header">
+  FF Nickname Generator
+  <div class="sub">Pro Player • Esports Name Engine</div>
+</header>
+
+<div class="container">
+
+  <input id="name" placeholder="Enter your name (optional)"/>
+
+  <div>
+    <button class="btn active" onclick="setMode('pro', this)">PRO</button>
+<button class="btn" onclick="setMode('aesthetic', this)">AESTHETIC</button>
+<button class="btn" onclick="setMode('symbol', this)">SYMBOL</button>
+<button class="btn" onclick="setMode('esports', this)">ESPORTS</button>
+  </div>
+
+  <button class="btn btn-generate" onclick="generate(this)">
+  ⚡ <span id="genText">GENERATE</span>
+</button>
+
+  <div class="section-title">Tap to copy</div>
+  <div id="list"></div>
+<footer class="ff-footer">
+  <div>FF Nickname Generator • Pro Tools</div>
+  <div class="small">
+    Made with ⚡ for gamers • 
+    <a href="https://yourwebsite.com" target="_blank">Yadin XD</a>
+  </div>
+</footer>
+</div>
+
+<script>
+ let mode = "pro";
+let history = [];
+let recent = [];
+const MAX_RECENT = 25;   
+
+function getRarity(){
+  const r = Math.random();
+
+  if(r < 0.02) return "mythic";
+  if(r < 0.10) return "epic";
+  if(r < 0.30) return "rare";
+  return "common";
+}
+
+function isDuplicate(name){
+  return recent.includes(name);
+}
+
+function saveRecent(name){
+  if(!recent.includes(name)){
+    recent.push(name);
+    if(recent.length > MAX_RECENT){
+      recent.shift();
+    }
+  }
+}
+
+function weighted(list){
+  return list[Math.floor(Math.random() * list.length)];
+}
+
+const symbols = [
+
+  // ⚔ CORE FF SYMBOL (wajib)
+  "亗","么","乂","×","•","ツ","彡","꧁","꧂",
+  "々","〆","卍","✿","✧","✦","✯","✰","⚝","⚡",
+
+  // 🔥 EXTRA PRO STYLE
+  "࿇","࿊","࿋","࿐","࿔","࿕","࿖","࿗","࿘",
+  "۝","۞","۩","࿐᭄","᭄","࿄","࿅","࿆","࿉","࿎",
+
+  // ⚔ SHARP / SWORD STYLE
+  "∆","√","π","λ","Ω","¥","$","€","¢","₹",
+  "∞","≈","≠","≤","≥","±","÷","×","∑","∆",
+
+  // ➤ ARROW / MOVEMENT STYLE
+  "→","←","↑","↓","↯","↬","↳","↱",
+  "⇆","⇄","⇅","⇧","⇩","➤","➜","➳","➢","➣",
+
+  // 🧱 BOX / FRAME STYLE
+  "【","】","〖","〗","『","』","《","》",
+  "⟦","⟧","⟪","⟫","⦅","⦆","⧼","⧽","⟬","⟭",
+
+  // ⚪ DOT / MINIMAL STYLE
+  "・","·","●","○","◉","⚫","⚪","⚡","✦","✧",
+  "✶","✷","✸","✹","✺","✻","✼","✽","✾","✿",
+
+  // ☠ DARK / AESTHETIC
+  "☠","☢","☣","⚔","☯","☮","♛","♞","♚","♟",
+  "☬","⚰","⚱","☤","⚚","⚛","☥","☦","☧","☨",
+
+  // 🧿 FF STYLE VARIANTS / CLAN TAG
+  "᭄","࿐᭄","۝","۞","۩","〄","彡","卍","〆","々",
+  "乂","么","ツ","✿","✧","✦","⚡","⚝","࿄","࿆",
+
+  // 👻 INVISIBLE / SPACE / GLITCH STYLE
+  "ㅤ","ㅤㅤ","ㅤㅤㅤ",
+  "︻","デ","═","一",
+  "҉","͜͝","͡͡","̷","̶","̴","̿","͜","͞",
+
+  // 💥 EFFECT / GAME UI STYLE
+  "✘","✔","✖","✚","✪","✩","✬","✭","✮","✯",
+  "❖","❂","❃","❆","❅","❉","❊","❋","✱","✲"
+];
+    
+const teams = [
+
+  // 🔥 FREE FIRE / INDONESIA ESPORTS
+  "RRQ","EVOS","BTR","ONIC","AURA","GPX","DEWA","ALTER","GE","MORPH",
+  "DRX","K1NG","DAG","NG","SES","NXL","BOOM","ECHO","VOIN","ARF",
+
+  // 🌍 GLOBAL ESPORTS
+  "TSM","FNC","TL","G2","C9","NAVI","PRX","LOUD","SEN","NRG",
+  "FAZE","OPTIC","VIT","MOUZ","SK","100T","KC","ENCE","BDS","T1",
+
+  // ⚔ FF STYLE CLAN
+  "ALPHA","OMEGA","SIGMA","ZERO","VOID","SHADOW","REAPER","SKULL","NOVA","STORM",
+  "DEMON","PHANTOM","VENOM","FURY","INFERNO","BLAST","CHAOS","TOXIC","OBLIVION","HAVOC",
+
+  // 👑 PRO SHORT TAG
+  "NX","VX","RX","ZX","QZ","MK","LX","AX","TRX","XK",
+  "VXR","ZR","TK","RK","VK","PK","QX","ZXR","RZX","LTX",
+
+  // 🎮 MODERN GAMER STYLE
+  "RUSH","CLUTCH","HEAD","SNIPER","TAP","RAGE","BOOST","FLASH","CORE","ULTRA",
+  "PRIME","LEGIT","KILL","DROP","HIT","LOCK","ZONE","AIM","BURST","HUNTER",
+
+  // 🔥 FF ELITE STYLE
+  "GOD","KING","LORD","ELITE","VIP","PRO","NOOB","HYPER","XTREME","LEGEND",
+  "BEAST","MONSTER","DRAGON","WOLF","TITAN","VIPER","FALCON","BLAZE","CYBER","GHOST",
+
+  // ⚡ DARK AESTHETIC TAG
+  "666","999","404","777","404NF","404ID","DARK","NIGHT","MOON","VOIDX",
+  "HELL","BLOOD","CRAZY","DEATH","XENO","NOX","LUCIFER","AKUMA","YAMI","KURO",
+
+  // 🌀 ANIME / JAPAN STYLE
+  "AKATSUKI","UZUMAKI","UCHIHA","GOJO","ITADORI","ZORO","KAIDO","YATO","RIN","LEVI",
+  "KAGE","YAMI","KIRA","AKIRA","SENPAI","OTAKU","ONI","SHIN","RAIJIN","KAZE",
+
+  // 💎 BRANDABLE UNIQUE
+  "ZYRO","VYRO","XYLO","ZYN","KYZEN","RYZEN","KAYZO","VEX","NYX","LUX",
+  "XENO","AERO","NEXO","KYRO","ZYRON","VORTEX","CRONIX","VYTOR","ZEX","RAIX",
+
+  // 🚀 FUTURE / CYBER STYLE
+  "CYBER","NEON","GLITCH","MATRIX","NEXUS","QUANTUM","PIXEL","BYTE","OMEGAX","ZEROX",
+  "XCORE","MECHA","ROGUE","DATA","VIRAL","SYSTEM","AI","BOT","VOIDX","NETX"
+];
+
+const randomBases = [
+
+  // ⚔ CORE FF STYLE (dark / pro / killer vibe)
+  "Shadow","Killer","Raven","Ghost","Blade",
+  "Nova","Zen","Ace","Fury","Zero","Vex",
+  "Storm","Night","Dark","Ice","Flame","Fire","Blood","Steel","Iron","Ash",
+
+  // ☠ EXTREME DARK PRO PLAYER
+  "Reaper","Phantom","Spectre","Demon","Inferno",
+  "Venom","Toxic","Nightmare","Death","Skull",
+  "Oblivion","Chaos","Havoc","Wrath","Blitz",
+  "Doom","Hell","Rage","Void","Decay","Cursed","Fallen","Broken","Savage","Beastmode",
+
+  // 🌀 ANIME / AESTHETIC FF STYLE
+  "Sasuke","Itachi","Naruto","Zoro","Luffy",
+  "Aizen","Gojo","Yami","Eren","Levi",
+  "Kira","Akira","Rin","Kage","Hikari",
+  "Tanjiro","Sakura","Hinata","Madara","Obito","Jin","Takashi","Ren","Sora","Hiro",
+
+  // 🎮 ESPORTS SHORT NAME STYLE
+  "Vex","Xen","Zer","Kyo","Lux",
+  "Ryze","Kaze","Raiz","Nyx","Kuro",
+  "Viro","Zyro","Xiro","Lyze","Tyro",
+  "Nix","Zyn","Rex","Kyn","Vyx","Zex","Lyn","Axo","Ryo","Tyn",
+
+  // 👑 POWER / LEGEND STYLE
+  "Titan","Legend","Myth","Hero","King",
+  "Alpha","Omega","Sigma","Prime","Ultra",
+  "Beast","Monster","Dragon","Wolf","Lion",
+  "God","Lord","Knight","Emperor","Warlord","Champion","Hunter","Rider","Slayer","Master",
+
+  // 🔥 FF / GAMER FEEL MODERN
+  "Headshot","Clutch","Rush","Boom","Killshot",
+  "OneTap","NoScope","Flash","RushX","KillZone",
+  "AceShot","QuickScope","HyperKill","DoubleKill","TripleKill",
+  "LastShot","FirstBlood","WinStreak","Dominate","Rampage",
+
+  // ⚡ CYBER / FUTURE STYLE
+  "Cyber","Neon","Glitch","Matrix","Nexus",
+  "Quantum","Pixel","Byte","OmegaX","ZeroX",
+  "System","AI","Bot","Virus","Data","Core","Xenon","Plasma","Laser","Circuit"
+];
+
+function setMode(m, el){
+  mode = m;
+  document.querySelectorAll(".btn").forEach(b=>b.classList.remove("active"));
+  if(el) el.classList.add("active");
+}
+
+function rand(arr){
+  return arr[Math.floor(Math.random()*arr.length)];
+}
+
+function getBaseName(input){
+  if(input && input.trim() !== ""){
+    return input.trim();
+  }
+  return rand(randomBases);
+}
+
+function makeName(base){
+
+  
+
+  base = base.trim();
+
+
+  const chaosSymbols = symbols;
+  const sep = ["","•","×","_","-",".","ㅤ"];
+
+  // =========================
+  // STYLE MODIFIERS (NEW LAYER)
+  // =========================
+  const prefix = [
+  ()=> "",
+  ()=> rand(["꧁","『","𓆩","⚔","☠"]),
+  ()=> rand(chaosSymbols)
+];
+    
+  const suffix = [
+    ()=> rand(chaosSymbols),
+    ()=> rand(teams),
+    ()=> rand(["꧂","』","𓆪","⚔","☠"]),
+    ()=> ""
+  ];
+
+  const noise = [
+    ()=> "",
+    ()=> rand(sep),
+    ()=> rand(sep)+Math.floor(Math.random()*999),
+    ()=> rand(sep)+rand(randomBases),
+  ];
+
+  // =========================
+  // CORE BUILDER (FLOW ENGINE)
+  // =========================
+function build(core){
+  let p = rand(prefix)();
+  let s = rand(suffix)();
+  let n = rand(noise)();
+
+  return p + core + n + s;
+}
+
+  // =========================
+  // PRO MODE (FLOW VARIANT)
+  // =========================
+  if(mode === "pro"){
+
+ const pool = [
+  ()=> build(base),
+  ()=> build(base + rand(sep) + rand(randomBases)),
+  ()=> build(base + rand(sep) + rand(teams)),   // 🔥 pastikan base tetap ada
+  ()=> build(rand(teams) + base),               // 🔥 lebih kuat
+  ()=> build(base + rand(chaosSymbols)),
+];
+
+    return weighted(pool)();
+  }
+
+  // =========================
+  // AESTHETIC MODE (FLOW SOFT ENGINE)
+  // =========================
+  if(mode === "aesthetic"){
+
+    const styles = [
+      (b)=> build(`✧${b}✦`),
+      (b)=> build(`~${b}~`),
+      (b)=> build(`♡${b}♡`),
+      (b)=> build(`𓆩${b}𓆪`),
+      (b)=> build(`${b}.x`),
+      (b)=> build(`${b}_night`),
+      (b)=> build(`soft.${b}`),
+      (b)=> build(`night.${b}`),
+      (b)=> build(`✦${b}dream✦`),
+      (b)=> build(`《${b}》`)
+    ];
+
+    return weighted(styles)(base);
+  }
+
+  // =========================
+  // SYMBOL MODE (HEAVY FLOW)
+  // =========================
+  if(mode === "symbol"){
+
+    const pool = [
+      ()=> build("꧁"+base+"꧂"),
+      ()=> build(rand(chaosSymbols)+base+rand(chaosSymbols)),
+      ()=> build("【"+base+"】"),
+      ()=> build("『"+base+"』"),
+      ()=> build("𓆩"+base+"𓆪"),
+      ()=> build(rand(chaosSymbols)+rand(chaosSymbols)+base),
+    ];
+
+    return weighted(pool)();
+  }
+
+  // =========================
+  // ESPORTS MODE (CLAN FLOW)
+  // =========================
+  if(mode === "esports"){
+
+    const pool = [
+      ()=> build(rand(teams)+"•"+base),
+      ()=> build(base+"×"+rand(teams)),
+      ()=> build("["+rand(teams)+"]"+base),
+      ()=> build(rand(teams)+"_"+base+"_PRO"),
+      ()=> build(base+"•"+rand(teams)),
+      ()=> build(rand(teams)+"・"+base+"・X"),
+    ];
+
+    return weighted(pool)();
+  }
+
+  return base;
+}
+
+function generate(btn){
+  const input = document.getElementById("name").value;
+  const base = getBaseName(input);
+
+  // 🔥 START LOADING STATE
+  btn.classList.add("loading");
+
+  const genText = document.getElementById("genText");
+  genText.innerHTML = `<span class="spinner"></span>GENERATING...`;
+
+  // 🔥 delay biar terasa “processing”
+  setTimeout(() => {
+
+    let list = [];
+
+    for(let i=0;i<15;i++){
+      let n;
+      let tries = 0;
+
+      do {
+        n = makeName(base);
+        tries++;
+      } while(isDuplicate(n) && tries < 5);
+
+      saveRecent(n);
+
+      list.push(n);
+      history.push(n);
+    }
+
+    render(list);
+
+    // 🔥 STOP LOADING
+    btn.classList.remove("loading");
+    genText.innerHTML = "GENERATE";
+
+  }, 800 + Math.random() * 600); // delay random feel game
+}
+
+function render(list){
+  const box = document.getElementById("list");
+  box.innerHTML = "";
+
+  list.forEach(n=>{
+    const div = document.createElement("div");
+    div.className = "card";
+    div.innerHTML = n + "<div class='small'>tap to copy</div>";
+
+    div.onclick = async () => {
+      try {
+        await navigator.clipboard.writeText(n);
+        div.innerHTML = "COPIED ✔";
+        setTimeout(()=>div.innerHTML=n+"<div class='small'>tap to copy</div>",700);
+      } catch(e){
+        alert("Copy not supported");
+      }
+    };
+
+    box.appendChild(div);
+  });
+}
+    
+
+</script>
+
+</body>
+</html>
