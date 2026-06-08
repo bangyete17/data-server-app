@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>pria solo adventure</title>
+    <style>
+html,body { margin: 0;overflow: hidden;}
+canvas{ padding: 0; margin: auto; display: block; width:100%;}
+#gameArea {width:80%; position:absolute;}
+#game {margin:50px;}
+	</style>
+ 	<script type="text/javascript" src="js/gameLib.js"></script>  
+	<script src="js/enemy4_menembak.js"></script>
+	<script src="js/enemy5_menembak.js"></script>
+	<script src="js/enemy6_menembak.js"></script>
+	<script src="js/enemy7_box-menembak.js"></script>
+</head>
+<body>
+<div id="game">
+	<div id="gameArea"><canvas id="canvas"></canvas></div>
+</div>
+</body>
+<script type="text/javascript" src="js/map_1.js"></script>
+<script type="text/javascript" src="js/map_2.js"></script>
+<script type="text/javascript" src="js/map_3.js"></script>
+<script type="text/javascript" src="js/map_4.js"></script>
+<script type="text/javascript" src="js/map_5.js"></script>
+<script>
+setGame("1200x600");
+
+game.folder = "assets";
+	
+game.guideBuka = false;
+game.guideScroll = 0;
+
+//================ ASSET =================
+
+var gambar = {
+
+	logo:"logo.png",
+	startBtn:"tombolStart.png",
+	cover:"cover.png",
+	playBtn:"btn-play.png",
+
+	//player
+	idle:"Idle.png",
+	run:"Run.png",
+	jump:"Jump.png",
+	fall:"Fall.png",
+	hit:"Hit.png",
+
+	//item
+	item1:"coin1.png",
+	item2:"coin2.png",
+	item3:"moneybig.png",
+	love:"moneylife.png",
+
+	//enemy
+	musuh1Idle:"enemy1Idle.png",
+	musuh1Run:"enemy1Run.png",
+	musuh1Hit:"enemy1Hit.png",
+	
+	musuh2Idle:"enemy2Idle.png",
+	musuh2Run:"enemy2Run.png",
+	musuh2Hit:"enemy2Hit.png",
+	
+	musuh3Idle:"enemy3Idle.png",
+	musuh3Run:"enemy3Run.png",
+	musuh3Hit:"enemy3Hit.png",
+	
+	musuh4Idle:"enemy4Idle.png",
+	musuh4Run:"enemy4Run.png",
+	musuh4Hit:"enemy4Hit.png",
+
+	//trigger
+	bendera:"Flag.png",
+
+	//tileset
+	tileset1:"terrainKesatu.png",
+	tileset2:"terrainKedua.png",
+
+	//background
+	bg1:"bg1.png",
+	bg2:"bg2.png",
+	bg3:"bg3.png",
+	bg4:"bg4.png",
+	bg5:"bg5.png",
+	bg6:"bg6.png",
+	
+	
+	
+musuh4Idle:"enemy4Idle.png",
+musuh4Run:"enemy4Run.png",
+musuh4Shoot:"enemy4Shoot.png", 
+musuh4Hit:"enemy4Hit.png",
+peluru4:"bulletGlobal.png",
+	
+	
+musuh5Idle:"enemy5Idle.png",
+musuh5Run:"enemy5Run.png",
+musuh5Shoot:"enemy5Shoot.png",
+musuh5Hit:"enemy5Hit.png",
+peluru5:"bulletGlobal.png",
+	
+musuh6Idle:"enemy6Idle.png",
+musuh6Run:"enemy6Run.png",
+musuh6Shoot:"enemy6Shoot.png",
+musuh6Hit:"enemy6Hit.png",
+peluru6:"bulletGlobal.png",
+	
+musuh7Idle:"enemy7Idle.png",
+musuh7Run:"enemy7Run.png",
+musuh7Shoot:"enemy7Shoot.png",
+musuh7Hit:"enemy7Hit.png",
+peluru7:"bulletRudal.png",
+	
+tombolJump: "tombolJump.png",
+tombolKanan: "tombolKanan.png",
+tombolKiri: "tombolKiri.png"
+	
+}
+
+var suara = {
+// SPX
+
+spx1: "jump.mp3",
+spx2: "spx-bruh.mp3",
+spx3: "spx-cash register.mp3",
+
+
+	
+	
+	
+// BGM
+ bg_cover: "Just Nasty.mp3",
+ bg_stage1: "Happy Bee.mp3",
+ bg_stage2: "Ibn Al-Noor.mp3",
+ bg_stage3: "Merry Go Slower.mp3",
+ bg_stage4: "Happy Bee.mp3",
+ bg_stage5: "Ibn Al-Noor.mp3",
+ bg_stage6: "Just Nasty.mp3"
+	
+};
+
+
+//================ LEVEL =================
+
+var levelData = {
+
+	1 : {
+		map : map_1,
+		bg : "bg1",
+		tileset : "tileset1"
+	},
+
+	2 : {
+		map : map_2,
+		bg : "bg2",
+		tileset : "tileset1"
+	},
+	
+	3 : {
+		map : map_3,
+		bg : "bg3",
+		tileset : "tileset1"
+	},
+	
+	4 : {
+		map : map_4,
+		bg : "bg4",
+		tileset : "tileset1"
+	},
+	
+	5 : {
+		map : map_5,
+		bg : "bg5",
+		tileset : "tileset1"
+	}
+};
+
+
+//================ LOAD =================
+
+loading(gambar, suara, startScreen);
+
+
+	
+		//================ sound spx =================
+var audioPool = {};
+var MAX_CHANNEL = 5;
+
+function playSfx(name){
+
+    var src = game.folder + "/" + suara[name];
+
+    if (!audioPool[name]){
+        audioPool[name] = [];
+    }
+
+    // cari channel kosong
+    for (var i = 0; i < audioPool[name].length; i++){
+        var a = audioPool[name][i];
+
+        if (a.ended || a.paused){
+            try {
+                a.pause();
+                a.currentTime = 0;
+                a.play();
+            } catch(e){}
+            return;
+        }
+    }
+
+    // kalau belum penuh → tambah
+    if (audioPool[name].length < MAX_CHANNEL){
+
+        var a = new Audio(src);
+
+        a.preload = "auto";
+        a.volume = 0.5;
+
+        a.play();
+
+        audioPool[name].push(a);
+    } else {
+        // kalau penuh → paksa pakai yang pertama (biar gak noise)
+        var a0 = audioPool[name][0];
+        try {
+            a0.pause();
+            a0.currentTime = 0;
+            a0.play();
+        } catch(e){}
+    }
+}
+//================ sound bgm =================
+	
+	var bgm = null;
+var currentBgm = "";
+
+function playBgm(name){
+
+    var src = game.folder + "/" + suara[name];
+
+    // kalau sama, jangan restart
+    if (currentBgm === name) return;
+
+    // stop musik lama
+    if (bgm){
+        bgm.pause();
+        bgm.currentTime = 0;
+    }
+
+    // buat musik baru
+    bgm = new Audio(src);
+    bgm.loop = true;
+    bgm.volume = 0.5;
+    bgm.play();
+
+    currentBgm = name;
+}
+	
+//================ START SCREEN =================
+
+function startScreen(){
+
+	hapusLayar("#5ecde4");
+
+	tampilkanGambar(dataGambar.logo,600,250);
+
+	var startBtn = tombol(dataGambar.startBtn,600,350);
+ tampilkanGuide();
+	if (tekan(startBtn)){
+		jalankan(halamanCover);
+	}
+}
+
+
+//================ COVER =================
+
+function halamanCover(){
+	
+playBgm("bg_cover"); // 🎵 musik menu
+	
+	hapusLayar("#4aa6b9");
+
+	gambarFull(dataGambar.cover);
+    tampilkanGuide();
+	var playBtn = tombol(dataGambar.playBtn,1100,500);
+
+	if (tekan(playBtn)){
+
+		game.level = 1;
+game.score = 0;
+game.nyawa = 5;
+
+		setAwal();
+
+		jalankan(gameLoop);
+	}
+
+	
+}
+
+
+//================ SET AWAL =================
+
+function setAwal(){
+	game.iconLove =
+    setSprite(
+        dataGambar.love,
+        32,
+        32
+    );
+game.scoreLevel = 0;
+	var level = levelData[game.level];
+
+	 // 🎵 ganti musik sesuai level
+    if (game.level == 1) playBgm("bg_stage1");
+    if (game.level == 2) playBgm("bg_stage2");
+    if (game.level == 3) playBgm("bg_stage3");
+	if (game.level == 4) playBgm("bg_stage4");
+    if (game.level == 5) playBgm("bg_stage5");
+	
+	if (!level){
+
+		alert("BERSAMBUNG...");
+
+		game.level = 1;
+
+		level = levelData[1];
+	}
+
+	game.hero = setSprite(dataGambar.idle,32,32);
+
+	game.skalaSprite = 2;
+
+	game.hero.animDiam = dataGambar.idle;
+	game.hero.animLompat = dataGambar.jump;
+	game.hero.animJalan = dataGambar.run;
+	game.hero.animJatuh = dataGambar.fall;
+	game.hero.animMati = dataGambar.hit;
+
+	setPlatform(
+		level.map,
+		dataGambar[level.tileset],
+		32,
+		game.hero
+	);
+
+	game.bgSekarang = dataGambar[level.bg];
+
+	game.gameOver = ulangiPermainan;
+
+	//item
+	setPlatformItem(1,dataGambar.item1);
+	setPlatformItem(2,dataGambar.item2);
+	setPlatformItem(3,dataGambar.item3);
+
+	//enemy
+	var musuh1 = {};
+
+	musuh1.animDiam = dataGambar.musuh1Idle;
+	musuh1.animJalan = dataGambar.musuh1Run;
+	musuh1.animMati = dataGambar.musuh1Hit;
+
+	setPlatformEnemy(1,musuh1);
+	
+	var musuh2 = {};
+
+	musuh2.animDiam = dataGambar.musuh2Idle;
+	musuh2.animJalan = dataGambar.musuh2Run;
+	musuh2.animMati = dataGambar.musuh2Hit;
+
+	setPlatformEnemy(2,musuh2);
+	
+	var musuh3 = {};
+
+	musuh3.animDiam = dataGambar.musuh3Idle;
+	musuh3.animJalan = dataGambar.musuh3Run;
+	musuh3.animMati = dataGambar.musuh3Hit;
+
+	setPlatformEnemy(3,musuh3);
+	
+	var musuh4 = {};
+
+musuh4.animDiam =
+    dataGambar.musuh4Idle;
+
+musuh4.animJalan =
+    dataGambar.musuh4Run;
+
+musuh4.animShoot =
+    dataGambar.musuh4Shoot;
+
+musuh4.animMati =
+    dataGambar.musuh4Hit;
+
+setPlatformEnemy(
+    4,
+    musuh4
+);
+	
+	
+	var musuh5 = {};
+
+musuh5.animDiam =
+    dataGambar.musuh5Idle;
+
+musuh5.animJalan =
+    dataGambar.musuh5Run;
+
+musuh5.animShoot =
+    dataGambar.musuh5Shoot;
+
+musuh5.animMati =
+    dataGambar.musuh5Hit;
+
+setPlatformEnemy(
+    5,
+    musuh5
+);
+	
+	var musuh6 = {};
+
+musuh6.animDiam =
+    dataGambar.musuh6Idle;
+
+musuh6.animJalan =
+    dataGambar.musuh6Run;
+
+musuh6.animShoot =
+    dataGambar.musuh6Shoot;
+
+musuh6.animMati =
+    dataGambar.musuh6Hit;
+
+setPlatformEnemy(
+    6,
+    musuh6
+);
+	
+	var musuh7 = {};
+
+musuh7.animDiam =
+    dataGambar.musuh7Idle;
+
+musuh7.animJalan =
+    dataGambar.musuh7Run;
+
+musuh7.animShoot =
+    dataGambar.musuh7Shoot;
+
+musuh7.animMati =
+    dataGambar.musuh7Hit;
+
+setPlatformEnemy(
+    7,
+    musuh7
+);
+
+	//trigger level
+	setPlatformTrigger(1,dataGambar.bendera);
+	
+	
+}
+
+
+//================ RESET =================
+
+function ulangiPermainan(){
+
+    game.nyawa--;
+
+    if(game.nyawa <= 0){
+
+        game.level = 1;
+        game.score = 0;
+        game.nyawa = 5;
+    }
+
+    game.aktif = true;
+
+    setAwal();
+
+    jalankan(gameLoop);
+}
+
+
+//================ GAME LOOP ================
+
+function gameLoop(){
+
+	hapusLayar();
+    tampilkanGuide();
+	// background
+	latar(game.bgSekarang,0,0);
+	
+	// ================= WORLD =================
+	
+	buatLevel();
+
+	updatePeluru4();
+	updatePeluru5();
+	updatePeluru6();
+	updatePeluru7();
+	// ================= RESET INPUT =================
+	game.kiri = false;
+	game.kanan = false;
+	game.atas = false;
+
+	// ================= UI =================
+	
+	var W = 1200;
+var H = 600;
+	
+	var UI = {
+	kiriX: 0.15,   // 15% dari layar
+	kananX: 0.28,
+	jumpX: 0.85,
+	y: 0.88        // 88% dari tinggi layar (dekat bawah)
+};
+	
+var kiriX  = W * UI.kiriX;
+var kananX = W * UI.kananX;
+var jumpX  = W * UI.jumpX;
+var tombolY = H * UI.y;	
+	
+var btnKiri  = tombol(dataGambar.tombolKiri, kiriX, tombolY, 2);
+var btnKanan = tombol(dataGambar.tombolKanan, kananX, tombolY, 2);
+var btnJump  = tombol(dataGambar.tombolJump, jumpX, tombolY, 2);
+
+// ================= TOUCH =================
+if (game.mouseDitekan) {
+
+	if (jarak(game.mouse.x, game.mouse.y, kiriX, tombolY) < 70) {
+		game.kiri = true;
+	}
+
+	if (jarak(game.mouse.x, game.mouse.y, kananX, tombolY) < 70) {
+		game.kanan = true;
+	}
+
+	if (jarak(game.mouse.x, game.mouse.y, jumpX, tombolY) < 80) {
+		game.atas = true;
+	}
+}
+
+	// ================= KEYBOARD =================
+	if (kiri)  game.kiri = true;
+	if (kanan) game.kanan = true;
+	if (atas)  game.atas = true;
+
+	// ================= PLAYER MOVEMENT =================
+	if (game.kanan){
+		gerakLevel(game.hero,3,0);
+	}
+	else if (game.kiri){
+		gerakLevel(game.hero,-3,0);
+	}
+
+	if (game.atas){
+		gerakLevel(game.hero,0,-10);
+		 playSfx("spx1");
+	}
+
+
+
+	cekItem();
+
+	// ================= UI TEXT =================
+	
+	tampilkanUI();
+	
+	
+	efekTransisi();
+}
+//================ ITEM =================
+
+function tampilkanUI(){
+
+    tampilkanGuide();
+
+    // LOVE
+    for(var i=0;i<game.nyawa;i++){
+
+        game.iconLove.x = 35 + (i * 32);
+        game.iconLove.y = 40;
+
+        loopSprite(game.iconLove);
+    }
+
+	teks(
+    "$1000 = +1 life",
+    450,
+    45,
+   "Calibri-bold-24pt-left-tosca|hitam"
+);
+
+teks(
+    " $" + game.score,
+    650,
+    45,
+     "Calibri-bold-24pt-left-hijautua|hitam"
+);
+
+  
+
+}
+function cekNyawaBonus(){
+
+    while(
+        game.score >= 1000 &&
+        game.nyawa < 10
+    ){
+
+        game.score -= 1000;
+        game.nyawa++;
+
+    }
+}	
+	
+function cekItem(){
+
+	//item 1
+	if (game.itemID == 1){
+
+		tambahScore(10);
+		cekNyawaBonus();
+playSfx("spx3");
+		game.itemID = 0;
+	}
+
+	//item 2
+	else if (game.itemID == 2){
+
+		tambahScore(5);
+		cekNyawaBonus();
+ playSfx("spx3");
+		game.itemID = 0;
+	}
+
+	//item 3
+	else if (game.itemID == 3){
+
+		tambahScore(1000);
+		cekNyawaBonus();
+playSfx("spx3");
+		game.itemID = 0;
+	}
+
+	//naik level
+	if (game.triggerID == 1){
+
+    game.triggerID = 0;
+
+    game.aktif = false;
+
+    setTimeout(function(){
+
+        transisi("out", gantiLevel);
+
+    }, 2000); // 2 detik
+}
+}
+	
+	function gantiLevel(){
+
+    game.level++;
+
+    setAwal();
+
+    transisi("in");
+}
+	
+function tampilkanGuide(){
+
+    // tombol ?
+    konten.fillStyle = "rgba(0,0,0,0.6)";
+    konten.beginPath();
+    konten.arc(1150, 40, 25, 0, Math.PI * 2);
+    konten.fill();
+
+    teks(
+        "?",
+        1150,
+        50,
+        "Calibri-bold-30pt-center-putih"
+    );
+
+    // klik tombol
+    if(
+        game.mouseDitekan &&
+        jarak(game.mouse.x, game.mouse.y, 1150, 40) < 25
+    ){
+        game.guideBuka = !game.guideBuka;
+        game.mouseDitekan = false;
+    }
+
+    // popup
+    if(game.guideBuka){
+
+        konten.fillStyle =
+        "rgba(0,0,0,0.85)";
+
+        konten.fillRect(
+            150,
+            50,
+            900,
+            500
+        );
+
+        teks(
+            "PANDUAN GAME",
+            600,
+            90,
+            "Calibri-bold-28pt-center-tosca"
+        );
+
+teks(
+    "PANDUAN GAME",
+    600,
+    90,
+    "Calibri-bold-28pt-center-putih"
+);
+
+teks(
+    "Tombol kiri = jalan kiri",
+    220,
+    150,
+    "Calibri-normal-20pt-left-putih"
+);
+
+teks(
+    "Tombol kanan = jalan kanan",
+    220,
+    190,
+    "Calibri-normal-20pt-left-putih"
+);
+
+teks(
+    "Tombol lompat = melompat",
+    220,
+    230,
+    "Calibri-normal-20pt-left-putih"
+);
+
+        teks(
+            "Klik ? lagi untuk menutup",
+            600,
+            520,
+            "Calibri-normal-18pt-center-abuabu"
+        );
+    }
+}	
+</script>
+</html>
